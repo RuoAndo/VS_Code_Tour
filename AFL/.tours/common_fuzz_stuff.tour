@@ -4,6 +4,11 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
+      "description": "invokes common_fuzz_stuff.",
+      "line": 5003
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "simple bitflip. \r\n\r\nFLIP_BIT(out_buf, stage_cur);\r\nFLIP_BIT(out_buf, stage_cur + 1);\r\n\r\n",
       "line": 5281,
       "selection": {
@@ -19,13 +24,38 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "FLIP_BIT for common_fuzz_stuff",
+      "line": 5164
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /*********************************************\r\n   * SIMPLE BITFLIP (+dictionary construction) *\r\n   *********************************************/\r\n\r\n   ",
+      "line": 5188
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "common_fuzz_stuff\r\n",
+      "line": 208
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/",
       "line": 5533
     },
     {
       "file": "afl-fuzz.c",
-      "description": "invokes common_fuzz_stuff.",
-      "line": 5003
+      "description": "ARITHMETIC INC/DEC * **********************/\r\n",
+      "line": 5707
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "/****************\r\n\r\nRANDOM HAVOC * ****************/\r\n\r\nfuzz_one(){\r\n    1. favoredなtest caseが存在するかを確認\r\n    2. calibration\r\n    3. input trimming\r\n    4. performance scoreの計算\r\n    5. deterministic phase\r\n       - bitflip\r\n       - interest\r\n       - dctionary\r\n    6. non-deterministic phase\r\n       - havoc\r\n       - splice\r\n}\r\n\r\n",
+      "line": 6537
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "index random havoc",
+      "line": 6115
     },
     {
       "file": "afl-fuzz.c",
