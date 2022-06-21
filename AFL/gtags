@@ -1,0 +1,190 @@
+# global -rx common_fuzz_stuff
+common_fuzz_stuff 5188 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5281 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5310 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5362 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5440 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5477 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5533 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5545 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5604 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5614 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5629 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5639 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5697 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5707 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5721 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5731 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5790 afl-fuzz.c             if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5843 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5856 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5912 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5925 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 5991 afl-fuzz.c             if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 6035 afl-fuzz.c             if (common_fuzz_stuff(argv, ex_tmp, len + extras[j].len)) {
+common_fuzz_stuff 6091 afl-fuzz.c             if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;
+common_fuzz_stuff 6537 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, temp_len))
+
+5003 - 6695
+5188 - 6537
+
+fuzz_one         5003 afl-fuzz.c       static u8 fuzz_one(char** argv) {
+FLIP_BIT         5164 afl-fuzz.c       #define FLIP_BIT(_ar, _b) do { \
+EFF_APOS         5332 afl-fuzz.c       #define EFF_APOS(_p)          ((_p) >> EFF_MAP_SCALE2)
+EFF_REM          5333 afl-fuzz.c       #define EFF_REM(_x)           ((_x) & ((1 << EFF_MAP_SCALE2) - 1))
+EFF_ALEN         5334 afl-fuzz.c       #define EFF_ALEN(_l)          (EFF_APOS(_l) + !!EFF_REM(_l))
+EFF_SPAN_ALEN    5335 afl-fuzz.c       #define EFF_SPAN_ALEN(_p, _l) (EFF_APOS((_p) + (_l) - 1) - EFF_APOS(_p) + 1)
+FLIP_BIT         6688 afl-fuzz.c       #undef FLIP_BIT
+sync_fuzzers     6695 afl-fuzz.c       static void sync_fuzzers(char** argv) {
+
+# global -f .\afl-fuzz.c   
+AFL_MAIN           31 afl-fuzz.c       #define AFL_MAIN
+MESSAGES_TO_STDOUT   33 afl-fuzz.c       #define MESSAGES_TO_STDOUT
+_GNU_SOURCE        36 afl-fuzz.c       #define _GNU_SOURCE
+_FILE_OFFSET_BITS   38 afl-fuzz.c       #define _FILE_OFFSET_BITS 64
+HAVE_AFFINITY      78 afl-fuzz.c       #  define HAVE_AFFINITY 1    
+EXP_ST             85 afl-fuzz.c       #  define EXP_ST       
+EXP_ST             87 afl-fuzz.c       #  define EXP_ST static
+queue_entry       241 afl-fuzz.c       struct queue_entry {
+extra_data        278 afl-fuzz.c       struct extra_data {    
+STAGE_FLIP1       301 afl-fuzz.c         /* 00 */ STAGE_FLIP1,
+STAGE_FLIP2       302 afl-fuzz.c         /* 01 */ STAGE_FLIP2,
+STAGE_FLIP4       303 afl-fuzz.c         /* 02 */ STAGE_FLIP4,
+STAGE_FLIP8       304 afl-fuzz.c         /* 03 */ STAGE_FLIP8,
+STAGE_FLIP16      305 afl-fuzz.c         /* 04 */ STAGE_FLIP16,
+STAGE_FLIP32      306 afl-fuzz.c         /* 05 */ STAGE_FLIP32,
+STAGE_ARITH8      307 afl-fuzz.c         /* 06 */ STAGE_ARITH8,
+STAGE_ARITH16     308 afl-fuzz.c         /* 07 */ STAGE_ARITH16,  
+STAGE_ARITH32     309 afl-fuzz.c         /* 08 */ STAGE_ARITH32,  
+STAGE_INTEREST8   310 afl-fuzz.c         /* 09 */ STAGE_INTEREST8,
+STAGE_INTEREST16  311 afl-fuzz.c         /* 10 */ STAGE_INTEREST16,
+STAGE_INTEREST32  312 afl-fuzz.c         /* 11 */ STAGE_INTEREST32,
+STAGE_EXTRAS_UO   313 afl-fuzz.c         /* 12 */ STAGE_EXTRAS_UO, 
+STAGE_EXTRAS_UI   314 afl-fuzz.c         /* 13 */ STAGE_EXTRAS_UI,
+STAGE_EXTRAS_AO   315 afl-fuzz.c         /* 14 */ STAGE_EXTRAS_AO,
+STAGE_HAVOC       316 afl-fuzz.c         /* 15 */ STAGE_HAVOC,
+STAGE_SPLICE      317 afl-fuzz.c         /* 16 */ STAGE_SPLICE
+STAGE_VAL_NONE    323 afl-fuzz.c         /* 00 */ STAGE_VAL_NONE,
+STAGE_VAL_LE      324 afl-fuzz.c         /* 01 */ STAGE_VAL_LE,
+STAGE_VAL_BE      325 afl-fuzz.c         /* 02 */ STAGE_VAL_BE
+FAULT_NONE        331 afl-fuzz.c         /* 00 */ FAULT_NONE,
+FAULT_TMOUT       332 afl-fuzz.c         /* 01 */ FAULT_TMOUT,
+FAULT_CRASH       333 afl-fuzz.c         /* 02 */ FAULT_CRASH,
+FAULT_ERROR       334 afl-fuzz.c         /* 03 */ FAULT_ERROR,
+FAULT_NOINST      335 afl-fuzz.c         /* 04 */ FAULT_NOINST,
+FAULT_NOBITS      336 afl-fuzz.c         /* 05 */ FAULT_NOBITS
+get_cur_time      342 afl-fuzz.c       static u64 get_cur_time(void) {
+get_cur_time_us   356 afl-fuzz.c       static u64 get_cur_time_us(void) {
+UR                371 afl-fuzz.c       static inline u32 UR(u32 limit) {
+shuffle_ptrs      391 afl-fuzz.c       static void shuffle_ptrs(void** ptrs, u32 cnt) {
+bind_to_free_cpu  412 afl-fuzz.c       static void bind_to_free_cpu(void) {
+locate_diffs      541 afl-fuzz.c       static void locate_diffs(u8* ptr1, u8* ptr2, u32 len, s32* first, s32* last) {
+DI                572 afl-fuzz.c       static u8* DI(u64 val) {
+CHK_FORMAT        579 afl-fuzz.c       #define CHK_FORMAT(_divisor, _limit_mult, _fmt, _cast) do { \
+DF                629 afl-fuzz.c       static u8* DF(double val) {
+DMS               650 afl-fuzz.c       static u8* DMS(u64 val) {
+CHK_FORMAT        690 afl-fuzz.c       #undef CHK_FORMAT
+DTD               701 afl-fuzz.c       static u8* DTD(u64 cur_ms, u64 event_ms) {
+mark_as_det_done  726 afl-fuzz.c       static void mark_as_det_done(struct queue_entry* q) {
+mark_as_variable  747 afl-fuzz.c       static void mark_as_variable(struct queue_entry* q) {
+mark_as_redundant  773 afl-fuzz.c       static void mark_as_redundant(struct queue_entry* q, u8 state) {
+add_to_queue      804 afl-fuzz.c       static void add_to_queue(u8* fname, u32 len, u8 passed_det) {
+destroy_queue     842 afl-fuzz.c       EXP_ST void destroy_queue(void) {
+write_bitmap      863 afl-fuzz.c       EXP_ST void write_bitmap(void) {
+read_bitmap       886 afl-fuzz.c       EXP_ST void read_bitmap(u8* fname) {
+has_new_bits      907 afl-fuzz.c       static inline u8 has_new_bits(u8* virgin_map) {
+count_bits        980 afl-fuzz.c       static u32 count_bits(u8* mem) {
+FF               1009 afl-fuzz.c       #define FF(_b)  (0xff << ((_b) << 3))
+count_bytes      1015 afl-fuzz.c       static u32 count_bytes(u8* mem) {
+count_non_255_bytes 1041 afl-fuzz.c       static u32 count_non_255_bytes(u8* mem) {
+simplify_trace   1081 afl-fuzz.c       static void simplify_trace(u64* mem) {
+simplify_trace   1112 afl-fuzz.c       static void simplify_trace(u32* mem) {
+init_count_class16 1160 afl-fuzz.c       EXP_ST void init_count_class16(void) {
+classify_counts  1175 afl-fuzz.c       static inline void classify_counts(u64* mem) {
+classify_counts  1202 afl-fuzz.c       static inline void classify_counts(u32* mem) {
+remove_shm       1230 afl-fuzz.c       static void remove_shm(void) {
+minimize_bits    1241 afl-fuzz.c       static void minimize_bits(u8* dst, u8* src) {
+update_bitmap_score 1265 afl-fuzz.c       static void update_bitmap_score(struct queue_entry* q) {
+cull_queue       1316 afl-fuzz.c       static void cull_queue(void) {
+setup_shm        1371 afl-fuzz.c       EXP_ST void setup_shm(void) {
+setup_post       1406 afl-fuzz.c       static void setup_post(void) {
+read_testcases   1434 afl-fuzz.c       static void read_testcases(void) {
+compare_extras_len 1537 afl-fuzz.c       static int compare_extras_len(const void* p1, const void* p2) {
+compare_extras_use_d 1544 afl-fuzz.c       static int compare_extras_use_d(const void* p1, const void* p2) {
+load_extras_file 1554 afl-fuzz.c       static void load_extras_file(u8* fname, u32* min_len, u32* max_len,
+load_extras      1691 afl-fuzz.c       static void load_extras(u8* dir) {
+memcmp_nocase    1793 afl-fuzz.c       static inline u8 memcmp_nocase(u8* m1, u8* m2, u32 len) {
+maybe_add_auto   1803 afl-fuzz.c       static void maybe_add_auto(u8* mem, u32 len) {
+save_auto        1909 afl-fuzz.c       static void save_auto(void) {
+load_auto        1937 afl-fuzz.c       static void load_auto(void) {
+destroy_extras   1980 afl-fuzz.c       static void destroy_extras(void) {
+init_forkserver  2005 afl-fuzz.c       EXP_ST void init_forkserver(char** argv) {
+run_target       2290 afl-fuzz.c       static u8 run_target(char** argv, u32 timeout) {
+write_to_testcase 2508 afl-fuzz.c       static void write_to_testcase(void* mem, u32 len) {
+write_with_gap   2536 afl-fuzz.c       static void write_with_gap(void* mem, u32 len, u32 skip_at, u32 skip_len) {
+calibrate_case   2571 afl-fuzz.c       static u8 calibrate_case(char** argv, struct queue_entry* q, u8* use_mem,
+check_map_coverage 2726 afl-fuzz.c       static void check_map_coverage(void) {
+perform_dry_run  2743 afl-fuzz.c       static void perform_dry_run(char** argv) {
+link_or_copy     2947 afl-fuzz.c       static void link_or_copy(u8* old_path, u8* new_path) {
+pivot_inputs     2980 afl-fuzz.c       static void pivot_inputs(void) {
+CASE_PREFIX      2999 afl-fuzz.c       #  define CASE_PREFIX "id:"
+CASE_PREFIX      3001 afl-fuzz.c       #  define CASE_PREFIX "id_"
+describe_op      3073 afl-fuzz.c       static u8* describe_op(u8 hnb) {
+write_crash_readme 3114 afl-fuzz.c       static void write_crash_readme(void) {
+save_if_interesting 3163 afl-fuzz.c       static u8 save_if_interesting(char** argv, void* mem, u32 len, u8 fault) {
+find_start_position 3351 afl-fuzz.c       static u32 find_start_position(void) {
+find_timeout     3386 afl-fuzz.c       static void find_timeout(void) {
+write_stats_file 3421 afl-fuzz.c       static void write_stats_file(double bitmap_cvg, double stability, double eps) {
+maybe_update_plot_file 3520 afl-fuzz.c       static void maybe_update_plot_file(double bitmap_cvg, double eps) {
+delete_files     3560 afl-fuzz.c       static u8 delete_files(u8* path, u8* prefix) {
+get_runnable_processes 3591 afl-fuzz.c       static double get_runnable_processes(void) {
+nuke_resume_dir  3644 afl-fuzz.c       static void nuke_resume_dir(void) {
+maybe_delete_out_dir 3684 afl-fuzz.c       static void maybe_delete_out_dir(void) {
+show_stats       3933 afl-fuzz.c       static void show_stats(void) {
+bSTG             4066 afl-fuzz.c       #define bSTG    bSTART cGRA
+bH2              4067 afl-fuzz.c       #define bH2     bH bH
+bH5              4068 afl-fuzz.c       #define bH5     bH2 bH2 bH
+bH10             4069 afl-fuzz.c       #define bH10    bH5 bH5
+bH20             4070 afl-fuzz.c       #define bH20    bH10 bH10
+bH30             4071 afl-fuzz.c       #define bH30    bH20 bH10
+SP5              4072 afl-fuzz.c       #define SP5     "     "
+SP10             4073 afl-fuzz.c       #define SP10    SP5 SP5
+SP20             4074 afl-fuzz.c       #define SP20    SP10 SP10
+show_init_stats  4406 afl-fuzz.c       static void show_init_stats(void) {
+next_p2          4513 afl-fuzz.c       static u32 next_p2(u32 val) {
+trim_case        4526 afl-fuzz.c       static u8 trim_case(char** argv, struct queue_entry* q, u8* in_buf) {
+common_fuzz_stuff 4650 afl-fuzz.c       EXP_ST u8 common_fuzz_stuff(char** argv, u8* out_buf, u32 len) {
+choose_block_len 4702 afl-fuzz.c       static u32 choose_block_len(u32 limit) {
+calculate_score  4746 afl-fuzz.c       static u32 calculate_score(struct queue_entry* q) {
+could_be_bitflip 4820 afl-fuzz.c       static u8 could_be_bitflip(u32 xor_val) {
+could_be_arith   4850 afl-fuzz.c       static u8 could_be_arith(u32 old_val, u32 new_val, u8 blen) {
+could_be_interest 4931 afl-fuzz.c       static u8 could_be_interest(u32 old_val, u32 new_val, u8 blen, u8 check_le) {
+fuzz_one         5003 afl-fuzz.c       static u8 fuzz_one(char** argv) {
+FLIP_BIT         5164 afl-fuzz.c       #define FLIP_BIT(_ar, _b) do { \
+EFF_APOS         5332 afl-fuzz.c       #define EFF_APOS(_p)          ((_p) >> EFF_MAP_SCALE2)
+EFF_REM          5333 afl-fuzz.c       #define EFF_REM(_x)           ((_x) & ((1 << EFF_MAP_SCALE2) - 1))
+EFF_ALEN         5334 afl-fuzz.c       #define EFF_ALEN(_l)          (EFF_APOS(_l) + !!EFF_REM(_l))
+EFF_SPAN_ALEN    5335 afl-fuzz.c       #define EFF_SPAN_ALEN(_p, _l) (EFF_APOS((_p) + (_l) - 1) - EFF_APOS(_p) + 1)
+FLIP_BIT         6688 afl-fuzz.c       #undef FLIP_BIT
+sync_fuzzers     6695 afl-fuzz.c       static void sync_fuzzers(char** argv) {
+handle_stop_sig  6833 afl-fuzz.c       static void handle_stop_sig(int sig) {
+handle_skipreq   6845 afl-fuzz.c       static void handle_skipreq(int sig) {
+handle_timeout   6853 afl-fuzz.c       static void handle_timeout(int sig) {
+check_binary     6874 afl-fuzz.c       EXP_ST void check_binary(u8* fname) {
+fix_up_banner    7041 afl-fuzz.c       static void fix_up_banner(u8* name) {
+check_if_tty     7071 afl-fuzz.c       static void check_if_tty(void) {
+check_term_size  7096 afl-fuzz.c       static void check_term_size(void) {
+usage            7113 afl-fuzz.c       static void usage(u8* argv0) {
+setup_dirs_fds   7154 afl-fuzz.c       EXP_ST void setup_dirs_fds(void) {
+setup_stdio_file 7277 afl-fuzz.c       EXP_ST void setup_stdio_file(void) {
+check_crash_handling 7294 afl-fuzz.c       static void check_crash_handling(void) {
+check_cpu_governor 7360 afl-fuzz.c       static void check_cpu_governor(void) {
+get_core_count   7416 afl-fuzz.c       static void get_core_count(void) {
+fix_up_sync      7503 afl-fuzz.c       static void fix_up_sync(void) {
+handle_resize    7545 afl-fuzz.c       static void handle_resize(int sig) {
+check_asan_opts  7552 afl-fuzz.c       static void check_asan_opts(void) {
+detect_file_args 7583 afl-fuzz.c       EXP_ST void detect_file_args(char** argv) {
+setup_signal_handlers 7632 afl-fuzz.c       EXP_ST void setup_signal_handlers(void) {
+get_qemu_argv    7675 afl-fuzz.c       static char** get_qemu_argv(u8* own_loc, char** argv, int argc) {
+save_cmdline     7748 afl-fuzz.c       static void save_cmdline(u32 argc, char** argv) {
+main             7778 afl-fuzz.c       int main(int argc, char** argv) {
