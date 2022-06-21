@@ -1,0 +1,36 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "common_fuzz_stuff",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "simple bitflip. \r\n\r\nFLIP_BIT(out_buf, stage_cur);\r\nFLIP_BIT(out_buf, stage_cur + 1);\r\n\r\n",
+      "line": 5281,
+      "selection": {
+        "start": {
+          "line": 5278,
+          "character": 5
+        },
+        "end": {
+          "line": 5279,
+          "character": 38
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/",
+      "line": 5533
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "invokes common_fuzz_stuff.",
+      "line": 5003
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  6115.\r\n  \r\n  /****************\r\n   * RANDOM HAVOC *\r\n   ****************/",
+      "line": 6537
+    }
+  ]
+}
