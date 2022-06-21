@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AFL-2022-06-21-01",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "<pre>\r\nglobal -rx common_fuzz_stuff\r\ncommon_fuzz_stuff 5188 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5281 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5310 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5362 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5440 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5477 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5533 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5545 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5604 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5614 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5629 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5639 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5697 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5707 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5721 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5731 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5790 afl-fuzz.c             if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5843 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5856 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5912 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5925 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5991 afl-fuzz.c             if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 6035 afl-fuzz.c             if (common_fuzz_stuff(argv, ex_tmp, len + extras[j].len)) {\r\ncommon_fuzz_stuff 6091 afl-fuzz.c             if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 6537 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, temp_len))\r\n</pre>",
+      "line": 4650
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "fuzz_one",
+      "line": 5188
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static u8 fuzz_one(char** argv) {",
+      "line": 5281
+    }
+  ],
+  "ref": "master"
+}
