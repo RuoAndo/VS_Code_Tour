@@ -16,6 +16,11 @@
           "character": 16
         }
       }
+    },
+    {
+      "file": "process.c",
+      "description": "infer_and_process invokes hyper_res",
+      "line": 241
     }
   ]
 }
