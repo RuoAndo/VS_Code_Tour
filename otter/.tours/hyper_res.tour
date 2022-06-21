@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "hyper_res",
+  "steps": [
+    {
+      "file": "resolve.c",
+      "description": "invoked by process.c",
+      "line": 385
+    }
+  ]
+}
