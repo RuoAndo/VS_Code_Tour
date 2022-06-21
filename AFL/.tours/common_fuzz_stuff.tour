@@ -4,11 +4,6 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "invokes common_fuzz_stuff.",
-      "line": 5003
-    },
-    {
-      "file": "afl-fuzz.c",
       "description": "simple bitflip. \r\n\r\nFLIP_BIT(out_buf, stage_cur);\r\nFLIP_BIT(out_buf, stage_cur + 1);\r\n\r\n",
       "line": 5281,
       "selection": {
@@ -21,6 +16,101 @@
           "character": 38
         }
       }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /*********************************************\r\n   * SIMPLE BITFLIP (+dictionary construction) *\r\n   *********************************************/",
+      "line": 5310
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /*********************************************\r\n   * SIMPLE BITFLIP (+dictionary construction) *\r\n   *********************************************/",
+      "line": 5362
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /*********************************************\r\n   * SIMPLE BITFLIP (+dictionary construction) *\r\n   *********************************************/",
+      "line": 5440
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
+      "line": 5533
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
+      "line": 5545
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
+      "line": 5604
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
+      "line": 5614
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
+      "line": 5629
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
+      "line": 5639
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
+      "line": 5697
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
+      "line": 5707
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
+      "line": 5721
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
+      "line": 5731
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * INTERESTING VALUES *\r\n   **********************/",
+      "line": 5790
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * INTERESTING VALUES *\r\n   **********************/",
+      "line": 5843
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * INTERESTING VALUES *\r\n   **********************/",
+      "line": 5856
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * INTERESTING VALUES *\r\n   **********************/",
+      "line": 5912
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "  /**********************\r\n   * INTERESTING VALUES *\r\n   **********************/",
+      "line": 5925
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "invokes common_fuzz_stuff.",
+      "line": 5003
     },
     {
       "file": "afl-fuzz.c",
