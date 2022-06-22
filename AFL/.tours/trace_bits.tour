@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "trace_bits",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "EXP_ST void init_forkserver(char** argv) {",
+      "line": 2122,
+      "selection": {
+        "start": {
+          "line": 2005,
+          "character": 1
+        },
+        "end": {
+          "line": 2005,
+          "character": 43
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "# grep EXEC_FAIL_SIG *h -> config.h:#define EXEC_FAIL_SIG       0xfee1dead",
+      "line": 2385
+    }
+  ]
+}
