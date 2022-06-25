@@ -1,0 +1,46 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "fault_crash",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "static u8 run_target(char** argv, u32 timeout)",
+      "line": 2487,
+      "selection": {
+        "start": {
+          "line": 2478,
+          "character": 12
+        },
+        "end": {
+          "line": 2478,
+          "character": 23
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static u8 run_target(char** argv, u32 timeout)",
+      "line": 2478
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static void perform_dry_run(char** argv)",
+      "line": 2827
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static u8 save_if_interesting(char** argv, void* mem, u32 len, u8 fault)",
+      "line": 3258
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static u8 save_if_interesting(char** argv, void* mem, u32 len, u8 fault)",
+      "line": 3282
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "int main(int argc, char** argv)",
+      "line": 7953
+    }
+  ]
+}
