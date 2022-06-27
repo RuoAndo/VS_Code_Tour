@@ -1,0 +1,41 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "unique_crashes",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "static u8 save_if_interesting",
+      "line": 3292
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static u8 save_if_interesting",
+      "line": 3306
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static u8 save_if_interesting",
+      "line": 3320
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static void show_stats(void) ",
+      "line": 4137,
+      "selection": {
+        "start": {
+          "line": 4142,
+          "character": 38
+        },
+        "end": {
+          "line": 4142,
+          "character": 52
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static u8 fuzz_one(char** argv)",
+      "line": 5055
+    }
+  ]
+}
