@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "fuzz_one",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "This is a helper function for fuzz_one(). */",
+      "line": 4647
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "for fuzz_one",
+      "line": 4702,
+      "selection": {
+        "start": {
+          "line": 4699,
+          "character": 62
+        },
+        "end": {
+          "line": 4699,
+          "character": 70
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "fuzz_one",
+      "line": 5003
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "while(1) loop in main()",
+      "line": 8133
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "use_argv",
+      "line": 8065,
+      "selection": {
+        "start": {
+          "line": 8068,
+          "character": 5
+        },
+        "end": {
+          "line": 8068,
+          "character": 13
+        }
+      }
+    }
+  ]
+}
