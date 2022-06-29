@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "simple bitflip. \r\n\r\nFLIP_BIT(out_buf, stage_cur);\r\nFLIP_BIT(out_buf, stage_cur + 1);\r\n\r\n",
+      "description": "simple bitflip. \r\nFLIP_BIT over out_buf.\r\n\r\nFLIP_BIT(out_buf, stage_cur);\r\nFLIP_BIT(out_buf, stage_cur + 1);\r\n\r\nfor (stage_cur = 0; stage_cur < stage_max; stage_cur++) {",
       "line": 5281,
       "selection": {
         "start": {
@@ -34,8 +34,18 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
-      "line": 5533
+      "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n\r\n  stage_name  = \"arith 8/8\";\r\n  stage_short = \"arith8\";\r\n  stage_cur   = 0;\r\n  stage_max   = 2 * len * ARITH_MAX;\r\n\r\nu8 r = orig ^ (orig + j);\r\n",
+      "line": 5533,
+      "selection": {
+        "start": {
+          "line": 5523,
+          "character": 7
+        },
+        "end": {
+          "line": 5523,
+          "character": 32
+        }
+      }
     },
     {
       "file": "afl-fuzz.c",
