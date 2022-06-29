@@ -9,7 +9,7 @@
     },
     {
       "file": "1.py",
-      "description": "https://hacarus.github.io/interpretable-ml-book-ja/adversarial.html",
+      "description": "https://hacarus.github.io/interpretable-ml-book-ja/adversarial.html\r\n\r\nMNIST should be trained. ",
       "line": 2
     }
   ]
