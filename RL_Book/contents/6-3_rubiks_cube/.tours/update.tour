@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "update",
+  "steps": [
+    {
+      "file": "train.py",
+      "description": "update",
+      "line": 151
+    }
+  ]
+}
