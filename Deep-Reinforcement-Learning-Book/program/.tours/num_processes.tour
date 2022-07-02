@@ -1,0 +1,25 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "NUM_PROCESSES",
+  "steps": [
+    {
+      "title": "num_processes",
+      "description": ""
+    },
+    {
+      "file": "a2c.py",
+      "description": "NUM_PROCESSES = 32  # 同時に実行する環境",
+      "line": 186,
+      "selection": {
+        "start": {
+          "line": 191,
+          "character": 28
+        },
+        "end": {
+          "line": 191,
+          "character": 39
+        }
+      }
+    }
+  ]
+}
