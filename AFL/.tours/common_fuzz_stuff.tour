@@ -29,7 +29,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "  /*********************************************\r\n   * SIMPLE BITFLIP (+dictionary construction) *\r\n   *********************************************/",
+      "description": "  /*********************************************\r\n   * SIMPLE BITFLIP (+dictionary construction) *\r\n   *********************************************/\r\n\r\n   chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/http://www.mustakim.info/uga_cyber_security/Fuzzing.pdf\r\n   Examples:\r\n   -interest: -1, 0x8000000, 0xffff, etc\r\n   -bitflip: flipping 1,2,3,4,8,16,32 bits.\r\n   -havoc: random tweak in fixed length.\r\n   -extra: dictionary, remove Null, etc..\r\n\r\n   如果相加后效果与之前的某种bitflip相同，并且加完后影响到另一个字节，则运算 ，调用 common_fuzz_stuff 检查，如果为1，则丢弃。(orig & 0xffff) + j > 0xffff 同理，低16bits能否影响高16bits\r\n\r\n",
       "line": 5440
     },
     {
