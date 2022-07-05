@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "save_if_interesting",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "Fault - TMOUT, CRASH, ERROR.",
+      "line": 3217
+    }
+  ]
+}
