@@ -1,0 +1,321 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "out_buf",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "simple bit flip.",
+      "line": 5277
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "simple bit flip.",
+      "line": 5305,
+      "selection": {
+        "start": {
+          "line": 5310,
+          "character": 9
+        },
+        "end": {
+          "line": 5310,
+          "character": 21
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "mask.",
+      "line": 5360,
+      "selection": {
+        "start": {
+          "line": 5362,
+          "character": 9
+        },
+        "end": {
+          "line": 5362,
+          "character": 21
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "mask.",
+      "line": 5438,
+      "selection": {
+        "start": {
+          "line": 5440,
+          "character": 9
+        },
+        "end": {
+          "line": 5440,
+          "character": 21
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "increment.",
+      "line": 5531,
+      "selection": {
+        "start": {
+          "line": 5533,
+          "character": 13
+        },
+        "end": {
+          "line": 5533,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "mutation by ^",
+      "line": 5538,
+      "selection": {
+        "start": {
+          "line": 5545,
+          "character": 13
+        },
+        "end": {
+          "line": 5545,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "mutation by increment.",
+      "line": 5602,
+      "selection": {
+        "start": {
+          "line": 5604,
+          "character": 13
+        },
+        "end": {
+          "line": 5604,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "mutation by decrement.",
+      "line": 5613,
+      "selection": {
+        "start": {
+          "line": 5614,
+          "character": 13
+        },
+        "end": {
+          "line": 5614,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "swap.",
+      "line": 5627,
+      "selection": {
+        "start": {
+          "line": 5629,
+          "character": 13
+        },
+        "end": {
+          "line": 5629,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "swap.",
+      "line": 5637,
+      "selection": {
+        "start": {
+          "line": 5639,
+          "character": 13
+        },
+        "end": {
+          "line": 5639,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "increment.",
+      "line": 5695,
+      "selection": {
+        "start": {
+          "line": 5697,
+          "character": 13
+        },
+        "end": {
+          "line": 5697,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "decrement.",
+      "line": 5705,
+      "selection": {
+        "start": {
+          "line": 5707,
+          "character": 13
+        },
+        "end": {
+          "line": 5707,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "swap",
+      "line": 5719,
+      "selection": {
+        "start": {
+          "line": 5721,
+          "character": 13
+        },
+        "end": {
+          "line": 5721,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "swap.\r\n",
+      "line": 5726,
+      "selection": {
+        "start": {
+          "line": 5731,
+          "character": 13
+        },
+        "end": {
+          "line": 5731,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "interesting.",
+      "line": 5788,
+      "selection": {
+        "start": {
+          "line": 5790,
+          "character": 11
+        },
+        "end": {
+          "line": 5790,
+          "character": 23
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "interesting_16.",
+      "line": 5841,
+      "selection": {
+        "start": {
+          "line": 5843,
+          "character": 13
+        },
+        "end": {
+          "line": 5843,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "swap + interesting16",
+      "line": 5855,
+      "selection": {
+        "start": {
+          "line": 5856,
+          "character": 13
+        },
+        "end": {
+          "line": 5856,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "interesting 32",
+      "line": 5910,
+      "selection": {
+        "start": {
+          "line": 5912,
+          "character": 13
+        },
+        "end": {
+          "line": 5912,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "swap+interesting.",
+      "line": 5924,
+      "selection": {
+        "start": {
+          "line": 5925,
+          "character": 13
+        },
+        "end": {
+          "line": 5925,
+          "character": 25
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "Dictionary stuff: memcpy",
+      "line": 5989
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "memcpy",
+      "line": 6033,
+      "selection": {
+        "start": {
+          "line": 6035,
+          "character": 11
+        },
+        "end": {
+          "line": 6035,
+          "character": 23
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "memcpy",
+      "line": 6089,
+      "selection": {
+        "start": {
+          "line": 6091,
+          "character": 11
+        },
+        "end": {
+          "line": 6091,
+          "character": 23
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "random havoc \r\nswitch 6165:",
+      "line": 6537
+    }
+  ]
+}
