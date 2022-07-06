@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "run_tareget",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "2290-2503 - write_to_testcase",
+      "line": 2290
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "the return of run_target\r\n",
+      "line": 2472
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "run_target",
+      "line": 2485
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "run_target",
+      "line": 2490
+    }
+  ]
+}
