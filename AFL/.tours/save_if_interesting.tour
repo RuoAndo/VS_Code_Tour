@@ -6,6 +6,26 @@
       "file": "afl-fuzz.c",
       "description": "Fault - TMOUT, CRASH, ERROR.",
       "line": 3217
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "from common_fuzz_stuff",
+      "line": 4689
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "from sync_fuzzers",
+      "line": 6803,
+      "selection": {
+        "start": {
+          "line": 6793,
+          "character": 41
+        },
+        "end": {
+          "line": 6793,
+          "character": 48
+        }
+      }
     }
   ]
 }
