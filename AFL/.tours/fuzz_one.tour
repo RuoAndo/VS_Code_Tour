@@ -24,8 +24,18 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "fuzz_one",
+      "description": "fuzz_one\r\n\r\ninvocation point is only one. \r\nwhile loop in main()",
       "line": 5003
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "queue_cur is external . ",
+      "line": 5081
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "calibrate_case. queue_cur is external.",
+      "line": 5099
     },
     {
       "file": "afl-fuzz.c",
