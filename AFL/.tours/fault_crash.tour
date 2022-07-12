@@ -24,17 +24,22 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "static void perform_dry_run(char** argv)",
+      "description": "static void perform_dry_run(char** argv)\r\n\r\nglobal -rx perform_dry_run\r\nperform_dry_run  8070 afl-fuzz.c         perform_dry_run(use_argv);",
       "line": 2827
     },
     {
       "file": "afl-fuzz.c",
-      "description": "static u8 save_if_interesting(char** argv, void* mem, u32 len, u8 fault)",
+      "description": "fault_crashを返す\r\n\r\nfrom main() ",
+      "line": 8070
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static u8 save_if_interesting(char** argv, void* mem, u32 len, u8 fault)\r\n\r\nres = calibrate_case(argv, queue_top, mem, queue_cycle - 1, 0);\r\n switch(fault)\r\n ",
       "line": 3258
     },
     {
       "file": "afl-fuzz.c",
-      "description": "static u8 save_if_interesting(char** argv, void* mem, u32 len, u8 fault)",
+      "description": "static u8 save_if_interesting(char** argv, void* mem, u32 len, u8 fault)\r\n\r\nres = calibrate_case(argv, queue_top, mem, queue_cycle - 1, 0);\r\n switch(fault)",
       "line": 3282
     },
     {
