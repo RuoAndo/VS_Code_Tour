@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "cull_queue",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "cull_queue main while loop.\r\n",
+      "line": 8095
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "cull_queue\r\n> global -rx cull_queue\r\ncull_queue       8072 afl-fuzz.c         cull_queue();\r\ncull_queue       8095 afl-fuzz.c           cull_queue();",
+      "line": 1316,
+      "selection": {
+        "start": {
+          "line": 1316,
+          "character": 13
+        },
+        "end": {
+          "line": 1316,
+          "character": 23
+        }
+      }
+    }
+  ]
+}
