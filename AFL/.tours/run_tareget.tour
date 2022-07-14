@@ -9,6 +9,36 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "to frsv_st_fd",
+      "line": 2008,
+      "selection": {
+        "start": {
+          "line": 2133,
+          "character": 17
+        },
+        "end": {
+          "line": 2133,
+          "character": 24
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "fork server status pipe",
+      "line": 145,
+      "selection": {
+        "start": {
+          "line": 145,
+          "character": 12
+        },
+        "end": {
+          "line": 145,
+          "character": 22
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "the return of run_target\r\n",
       "line": 2472
     },
