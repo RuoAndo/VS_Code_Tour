@@ -19,6 +19,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "排他的論理和を用いた変換\r\n\r\n",
+      "line": 5164
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "  /*********************************************\r\n   * SIMPLE BITFLIP (+dictionary construction) *\r\n   *********************************************/",
       "line": 5310
     },
