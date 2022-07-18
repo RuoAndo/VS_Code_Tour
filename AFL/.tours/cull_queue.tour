@@ -9,6 +9,26 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "qull_queue",
+      "line": 276,
+      "selection": {
+        "start": {
+          "line": 275,
+          "character": 1
+        },
+        "end": {
+          "line": 276,
+          "character": 77
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "static struct queue_entry*\r\n  top_rated[MAP_SIZE];                /* Top entries for bitmap bytes     */",
+      "line": 1341
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "cull_queue\r\n> global -rx cull_queue\r\ncull_queue       8072 afl-fuzz.c         cull_queue();\r\ncull_queue       8095 afl-fuzz.c           cull_queue();",
       "line": 1316,
       "selection": {
