@@ -24,7 +24,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "static struct queue_entry*\r\n  top_rated[MAP_SIZE];                /* Top entries for bitmap bytes     */",
+      "description": "static struct queue_entry*\r\n  top_rated[MAP_SIZE];                /* Top entries for bitmap bytes     */\r\n\r\n  grep MAP_SIZE *h\r\nconfig.h:/* Map size for the traced binary (2^MAP_SIZE_POW2). Must be greater than\r\nconfig.h:#define MAP_SIZE_POW2       16\r\nconfig.h:#define MAP_SIZE            (1 << MAP_SIZE_POW2)\r\n",
       "line": 1341
     },
     {
