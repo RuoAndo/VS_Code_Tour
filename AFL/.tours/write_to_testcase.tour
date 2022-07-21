@@ -1,0 +1,46 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "write_to_testcase",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "from common_fuzz_stuff\r\nwrite_to_testcase(out_buf, len);\r\n",
+      "line": 2508
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "from save_if_interesting\r\n",
+      "line": 3251
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "from common_fuzz_stuff",
+      "line": 4661
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "from _save_if_intresting",
+      "line": 3251
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "from common_fuzz_stuff",
+      "line": 4661
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "from sync_fuzzers\r\n",
+      "line": 6796
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "from calibrate_case",
+      "line": 2620
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "> global -t ck_write\r\nck_write        debug.h 246",
+      "line": 2522
+    }
+  ]
+}
