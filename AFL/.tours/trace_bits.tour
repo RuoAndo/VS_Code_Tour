@@ -19,8 +19,43 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "# grep EXEC_FAIL_SIG *h -> config.h:#define EXEC_FAIL_SIG       0xfee1dead",
+      "description": "config.h:#define EXEC_FAIL_SIG       0xfee1dead   \r\n run_target",
       "line": 2385
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "init trace_bits",
+      "line": 2305
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "# grep EXEC_FAIL_SIG *h -> config.h:#define EXEC_FAIL_SIG       0xfee1dead\r\n\r\nstatic u8 run_target",
+      "line": 2385,
+      "selection": {
+        "start": {
+          "line": 2290,
+          "character": 1
+        },
+        "end": {
+          "line": 2290,
+          "character": 21
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "for (i = 0; i < MAP_SIZE; i++)\r\n\r\nconfig.h:/* Map size for the traced binary (2^MAP_SIZE_POW2). Must be greater than                                                                                                                        \r\nconfig.h:#define MAP_SIZE_POW2       16                                                                                                                                                                   \r\nconfig.h:#define MAP_SIZE            (1 << MAP_SIZE_POW2)     ",
+      "line": 1275,
+      "selection": {
+        "start": {
+          "line": 1273,
+          "character": 3
+        },
+        "end": {
+          "line": 1273,
+          "character": 33
+        }
+      }
     }
   ]
 }
