@@ -1,0 +1,46 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "calibrate_cacse",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "calibrate_case",
+      "line": 2571
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "perform_dry_run",
+      "line": 2769,
+      "selection": {
+        "start": {
+          "line": 2743,
+          "character": 13
+        },
+        "end": {
+          "line": 2743,
+          "character": 28
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "save_if_interesing",
+      "line": 3203
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "fuzz_one",
+      "line": 5099,
+      "selection": {
+        "start": {
+          "line": 5093,
+          "character": 35
+        },
+        "end": {
+          "line": 5093,
+          "character": 49
+        }
+      }
+    }
+  ]
+}
