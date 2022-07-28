@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "calibrate_case",
+      "description": "calibrate_case\r\n\r\n  fault = run_target(argv, use_tmout);\r\nreturn fault.\r\n\r\n# global -rx calibrate_case\r\ncalibrate_case   2769 afl-fuzz.c           res = calibrate_case(argv, q, use_mem, 0, 1);\r\n\r\nstatic void perform_dry_run(char** argv) {\r\n\r\ncalibrate_case   3203 afl-fuzz.c           res = calibrate_case(argv, queue_top, mem, queue_cycle - 1, 0);\r\n\r\n static u8 save_if_interesting\r\n\r\ncalibrate_case   5099 afl-fuzz.c             res = calibrate_case(argv, queue_cur, in_buf, queue_cycle - 1, 0);\r\n\r\nfuzz_one\r\n",
       "line": 2571
     },
     {
