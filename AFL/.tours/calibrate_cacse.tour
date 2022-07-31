@@ -9,27 +9,42 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "perform_dry_run",
+      "description": "fuzz_one",
+      "line": 2634
+    },
+    {
+      "file": "hash.h",
+      "description": "hash32",
+      "line": 43
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "perform_dry_run\r\nstruct queue_entry* q = queue;\r\n\r\nstatic struct queue_entry *queue,     /* Fuzzing queue (linked list)      */\r\n                          *queue_cur, /* Current offset within the queue  */\r\n                          *queue_top, /* Top of the list                  */\r\n                          *q_prev100; /* Previous 100 marker              */",
       "line": 2769,
       "selection": {
         "start": {
-          "line": 2743,
-          "character": 13
+          "line": 2745,
+          "character": 3
         },
         "end": {
-          "line": 2743,
-          "character": 28
+          "line": 2745,
+          "character": 33
         }
       }
     },
     {
       "file": "afl-fuzz.c",
-      "description": "save_if_interesing",
+      "description": "FROM save_if_interesing\r\n\r\nstatic struct queue_entry *queue,     /* Fuzzing queue (linked list)      */\r\n                          *queue_cur, /* Current offset within the queue  */\r\n                          *queue_top, /* Top of the list                  */\r\n                          *q_prev100; /* Previous 100 marker              */",
       "line": 3203
     },
     {
       "file": "afl-fuzz.c",
-      "description": "fuzz_one",
+      "description": "IN calibrate_case",
+      "line": 3191
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "FROM fuzz_one\r\n\r\nstatic struct queue_entry *queue,     /* Fuzzing queue (linked list)      */\r\n                          *queue_cur, /* Current offset within the queue  */\r\n                          *queue_top, /* Top of the list                  */\r\n                          *q_prev100; /* Previous 100 marker              */",
       "line": 5099,
       "selection": {
         "start": {
