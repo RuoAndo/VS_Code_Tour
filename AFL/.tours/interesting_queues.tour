@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "interesting_queues",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "extern\r\n",
+      "line": 294
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "could_be_ineterest",
+      "line": 4942
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "fuzz_one",
+      "line": 5756
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "random havoc\r\n",
+      "line": 6178
+    }
+  ]
+}
