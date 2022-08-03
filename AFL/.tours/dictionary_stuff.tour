@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "dictionary_stuff",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "dictionary stuff\r\n",
+      "line": 5944,
+      "selection": {
+        "start": {
+          "line": 5003,
+          "character": 11
+        },
+        "end": {
+          "line": 5003,
+          "character": 19
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "extra: \r\n\r\nstruct extra_data {\r\n  u8* data;                           /* Dictionary token data            */\r\n  u32 len;                            /* Dictionary token length          */\r\n  u32 hit_cnt;                        /* Use count in the corpus          */\r\n};\r\n\r\nstatic struct extra_data* extras;     /* EAxtra tokens to fuzz with        */\r\nstatic u32 extras_cnt;                /* Total number of tokens read      */\r\n\r\nstatic struct extra_data* a_extras;   /* Automatically selected extras    */\r\nstatic u32 a_extras_cnt;              /* Total number of tokens available */",
+      "line": 5979
+    }
+  ]
+}
