@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "splicing",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "splicing",
+      "line": 6584
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "splicing",
+      "line": 6638
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "splicing",
+      "line": 541
+    }
+  ]
+}
