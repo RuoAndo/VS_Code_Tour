@@ -4,17 +4,17 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "Fault - TMOUT, CRASH, ERROR.",
+      "description": "in save_if_interesting\r\nFault - TMOUT, CRASH, ERROR.",
       "line": 3217
     },
     {
       "file": "afl-fuzz.c",
-      "description": "from common_fuzz_stuff",
+      "description": "write_to_testcase\r\nrun_target\r\n\r\nfrom common_fuzz_stuff",
       "line": 4689
     },
     {
       "file": "afl-fuzz.c",
-      "description": "from sync_fuzzers",
+      "description": "write_to_testcase\r\nrun_target\r\n\r\nfrom sync_fuzzers",
       "line": 6803,
       "selection": {
         "start": {
