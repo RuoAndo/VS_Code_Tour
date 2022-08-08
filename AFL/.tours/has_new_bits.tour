@@ -1,0 +1,56 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "has_new_bits",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "has_new_bits",
+      "line": 907
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "calibrate_case",
+      "line": 2607
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "calibrate_case",
+      "line": 2638
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "save_if_interesting",
+      "line": 3175
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "save_if_interesting",
+      "line": 3238
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "save_if_interesting",
+      "line": 3302
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "has_new_bits",
+      "line": 907,
+      "selection": {
+        "start": {
+          "line": 907,
+          "character": 18
+        },
+        "end": {
+          "line": 907,
+          "character": 30
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "has_new_bits",
+      "line": 153
+    }
+  ]
+}
