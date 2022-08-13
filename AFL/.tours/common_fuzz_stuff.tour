@@ -19,6 +19,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "common_fuzz_stuff\r\n\r\n# global -rx common_fuzz_stuff                                                                                                                                                    \r\ncommon_fuzz_stuff 5188 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5281 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5310 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5362 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5440 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5477 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5533 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5545 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5604 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5614 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5629 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5639 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5697 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5707 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5721 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5731 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5790 afl-fuzz.c             if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5843 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5856 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5912 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5925 afl-fuzz.c               if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 5991 afl-fuzz.c             if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 6035 afl-fuzz.c             if (common_fuzz_stuff(argv, ex_tmp, len + extras[j].len)) {\r\ncommon_fuzz_stuff 6091 afl-fuzz.c             if (common_fuzz_stuff(argv, out_buf, len)) goto abandon_entry;\r\ncommon_fuzz_stuff 6537 afl-fuzz.c           if (common_fuzz_stuff(argv, out_buf, temp_len))",
+      "line": 5003
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "排他的論理和を用いた変換\r\n\r\n",
       "line": 5164
     },
@@ -66,6 +71,11 @@
       "file": "afl-fuzz.c",
       "description": "  /**********************\r\n   * ARITHMETIC INC/DEC *\r\n   **********************/\r\n",
       "line": 5614
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "DIC STUFF",
+      "line": 6035
     },
     {
       "file": "afl-fuzz.c",
