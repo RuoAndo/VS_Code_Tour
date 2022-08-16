@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "read_bitmap",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "global -rx read_bitmap\r\nread_bitmap      7947 afl-fuzz.c               read_bitmap(in_bitmap);\r\nread_bitmap      1102 afl-tmin.c               read_bitmap(optarg);",
+      "line": 886,
+      "selection": {
+        "start": {
+          "line": 876,
+          "character": 16
+        },
+        "end": {
+          "line": 876,
+          "character": 22
+        }
+      }
+    }
+  ]
+}
