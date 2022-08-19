@@ -4,12 +4,12 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "perform_dry_run",
+      "description": "perform_dry_run\r\n\r\nstatic struct queue_entry *queue,     /* Fuzzing queue (linked list)      */\r\n                          *queue_cur, /* Current offset within the queue  */\r\n                          *queue_top, /* Top of the list                  */\r\n                          *q_prev100; /* Previous 100 marker              */",
       "line": 2743
     },
     {
       "file": "afl-fuzz.c",
-      "description": "main. image.png",
+      "description": "main. image.png\r\n\r\ncuLL_queue\r\n\r\nwhile(1)",
       "line": 8070
     }
   ]
