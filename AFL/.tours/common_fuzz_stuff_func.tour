@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "common_fuzz_stuff_func",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "calls save_if_interesting.\r\n",
+      "line": 4650
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "common fuzz stuff",
+      "line": 168
+    }
+  ]
+}
