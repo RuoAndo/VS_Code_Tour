@@ -24,7 +24,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "fuzz_one\r\n\r\ninvocation point is only one. \r\nwhile loop in main()",
+      "description": "fuzz_one\r\n\r\ninvocation point is only one. \r\nwhile loop in main()\r\n\r\n1. simple bitflip\r\n2. arithmetic inc/dec\r\n3. interesting values\r\n4. random havoc\r\n5. dictionary stuff\r\n6. splicing",
       "line": 5003
     },
     {
