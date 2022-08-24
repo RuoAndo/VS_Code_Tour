@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "bitflip",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "simple bitflip",
+      "line": 5161
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "simple bitflip",
+      "line": 5232
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": " for (stage_cur = 0; stage_cur < stage_max; stage_cur++)",
+      "line": 5259,
+      "selection": {
+        "start": {
+          "line": 5182,
+          "character": 2
+        },
+        "end": {
+          "line": 5182,
+          "character": 58
+        }
+      }
+    }
+  ]
+}
