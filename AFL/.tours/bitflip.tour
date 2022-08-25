@@ -26,6 +26,31 @@
           "character": 58
         }
       }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "single walking bit",
+      "line": 5188
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "two walking bits",
+      "line": 5281
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "four walking bits",
+      "line": 5310
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "walking byte",
+      "line": 5362
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "four walking bytes",
+      "line": 5477
     }
   ]
 }
