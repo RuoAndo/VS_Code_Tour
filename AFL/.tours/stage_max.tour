@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "stage_max",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "stage progression",
+      "line": 208
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "calirate case",
+      "line": 2581
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "interation with run target with stage max",
+      "line": 2614
+    }
+  ]
+}
