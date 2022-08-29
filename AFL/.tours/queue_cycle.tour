@@ -1,0 +1,36 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "queue_cycle",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "queue_cycle * 64",
+      "line": 194
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "queue_cycle",
+      "line": 3203
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "show stats",
+      "line": 4090
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "main",
+      "line": 8099,
+      "selection": {
+        "start": {
+          "line": 8113,
+          "character": 44
+        },
+        "end": {
+          "line": 8113,
+          "character": 55
+        }
+      }
+    }
+  ]
+}
