@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "calcurate_score",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "calcurate_score from fuzz_one",
+      "line": 5143
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "calcurate_score",
+      "line": 4746
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "in calcurate score",
+      "line": 2675
+    }
+  ]
+}
