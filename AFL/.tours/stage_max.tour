@@ -4,18 +4,13 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "stage progression",
+      "description": "stage max\r\n",
       "line": 208
     },
     {
       "file": "afl-fuzz.c",
-      "description": "calirate case",
-      "line": 2581
-    },
-    {
-      "file": "afl-fuzz.c",
-      "description": "interation with run target with stage max",
-      "line": 2614
+      "description": "calibration cycles",
+      "line": 2596
     }
   ]
 }
