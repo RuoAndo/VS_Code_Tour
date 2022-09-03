@@ -11,6 +11,16 @@
       "file": "afl-fuzz.c",
       "description": "calibration cycles",
       "line": 2596
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "stagemax - bitflip",
+      "line": 5173
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "walking byte",
+      "line": 5352
     }
   ]
 }
