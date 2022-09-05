@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "extras_cnt",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "extras_cnt",
+      "line": 285
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "extras_cnt",
+      "line": 5947
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "extras_cnt",
+      "line": 8053
+    }
+  ]
+}
