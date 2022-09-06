@@ -9,6 +9,16 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "cal_failures - timeout",
+      "line": 2925
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "\r\n   expected. This is done only for the initial inputs, and only once. */\r\n",
+      "line": 2741
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "main. image.png\r\n\r\ncuLL_queue\r\n\r\nwhile(1)",
       "line": 8070
     }
