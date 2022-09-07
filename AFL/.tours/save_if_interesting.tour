@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "save_if_interesting calls calibrate_case.\r\n",
+      "line": 3163
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "write_to_testcase\r\nrun_target\r\n\r\nfrom common_fuzz_stuff",
       "line": 4689
     },
