@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "extern\r\n",
+      "description": "config.h:#define INTERESTING_8 \\\r\n\r\nconfig.h:229: #define INTERESTING_8 \\\r\nconfig.h:230:   -128,          /* Overflow signed 8-bit when decremented  */ \\\r\nconfig.h:231:   -1,            /*                                         */ \\\r\nconfig.h:232:    0,            /*                                         */ \\\r\nconfig.h:233:    1,            /*                                         */ \\\r\nconfig.h:234:    16,           /* One-off with common buffer size         */ \\\r\nconfig.h:235:    32,           /* One-off with common buffer size         */ \\\r\nconfig.h:236:    64,           /* One-off with common buffer size         */ \\\r\nconfig.h:237:    100,          /* One-off with common buffer size         */ \\\r\nconfig.h:238:    127           /* Overflow signed 8-bit when incremented  */\r\n",
       "line": 294
     },
     {
