@@ -9,7 +9,12 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "fuzz_one",
+      "description": "random havoc",
+      "line": 371
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "fuzz_one\r\n\r\nrandom havoc as 16 cases. ",
       "line": 6119
     }
   ]
