@@ -16,6 +16,21 @@
       "file": "afl-fuzz.c",
       "description": "extras_cnt",
       "line": 8053
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "inputにクラッシュするようなテストケースがないか",
+      "line": 2827,
+      "selection": {
+        "start": {
+          "line": 2743,
+          "character": 13
+        },
+        "end": {
+          "line": 2743,
+          "character": 24
+        }
+      }
     }
   ]
 }
