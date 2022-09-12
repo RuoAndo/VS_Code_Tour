@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "top_rated",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "bitmap bytes\r\n",
+      "line": 276
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "update_bitmap_score",
+      "line": 1277
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "cull_queue\r\n",
+      "line": 1342,
+      "selection": {
+        "start": {
+          "line": 1339,
+          "character": 30
+        },
+        "end": {
+          "line": 1339,
+          "character": 39
+        }
+      }
+    }
+  ]
+}
