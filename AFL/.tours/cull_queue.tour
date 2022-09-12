@@ -41,6 +41,11 @@
           "character": 23
         }
       }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "main loop while(1) in main \r\nbefore fuzz_one\r\n\r\nbefore show_stats\r\n",
+      "line": 8095
     }
   ]
 }
