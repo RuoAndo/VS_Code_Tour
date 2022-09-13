@@ -14,7 +14,17 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "extras_cnt",
+      "description": "in, extras_cnt loop",
+      "line": 1691
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "1751",
+      "line": 278
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "extras_cnt in main loop",
       "line": 8053
     },
     {
@@ -31,6 +41,11 @@
           "character": 24
         }
       }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "extras_cnt",
+      "line": 1554
     }
   ]
 }
