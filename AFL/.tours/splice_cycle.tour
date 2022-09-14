@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "splice_cycle",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "splice-cycle",
+      "line": 5008
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "splice_cycle\r\n",
+      "line": 6124
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "splice_cycle",
+      "line": 6586
+    }
+  ]
+}
