@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "trim_case",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "trim_case",
+      "line": 4526
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trim_case\r\n",
+      "line": 4595
+    }
+  ]
+}
