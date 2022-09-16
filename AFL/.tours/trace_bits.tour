@@ -66,6 +66,21 @@
       "file": "afl-fuzz.c",
       "description": "trace_bits",
       "line": 911
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace_bits",
+      "line": 1275,
+      "selection": {
+        "start": {
+          "line": 1270,
+          "character": 28
+        },
+        "end": {
+          "line": 1270,
+          "character": 38
+        }
+      }
     }
   ]
 }
