@@ -56,6 +56,16 @@
           "character": 33
         }
       }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace_bits",
+      "line": 151
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace_bits",
+      "line": 911
     }
   ]
 }
