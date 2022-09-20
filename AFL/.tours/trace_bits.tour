@@ -69,7 +69,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "trace_bits",
+      "description": "trace_bits[i]\r\n\r\nconfig.h:#define MAP_SIZE_POW2       16\r\nconfig.h:#define MAP_SIZE            (1 << MAP_SIZE_POW2)",
       "line": 1275,
       "selection": {
         "start": {
@@ -81,6 +81,16 @@
           "character": 38
         }
       }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "walking byte",
+      "line": 5377
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "simple bitflip",
+      "line": 5221
     }
   ]
 }
