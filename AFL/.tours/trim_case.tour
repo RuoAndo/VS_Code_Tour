@@ -9,6 +9,16 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "trim case in fuzz one",
+      "line": 5119
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "in_buf <- trim_case",
+      "line": 5067
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "trim_case\r\n",
       "line": 4595
     }
