@@ -19,6 +19,16 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "tracebits - init fork server",
+      "line": 2234
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace bits - init forkserver",
+      "line": 2122
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "config.h:#define EXEC_FAIL_SIG       0xfee1dead   \r\n run_target",
       "line": 2385
     },
