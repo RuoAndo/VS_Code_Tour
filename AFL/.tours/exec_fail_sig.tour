@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "EXEC_FAIL_SIG",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "init forkserver \r\n3/* Distinctive bitmap signature used to indicate failed execution: */  ",
+      "line": 2122
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "init_forkserver \r\n3/* Distinctive bitmap signature used to indicate failed execution: */  ",
+      "line": 2234
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "run_target \r\n3/* Distinctive bitmap signature used to indicate failed execution: */  ",
+      "line": 2385
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "run_target \r\n3/* Distinctive bitmap signature used to indicate failed execution: */  ",
+      "line": 2490
+    }
+  ]
+}
