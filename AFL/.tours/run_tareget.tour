@@ -39,7 +39,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "the return of run_target\r\n",
+      "description": "the return of run_target\r\n2290",
       "line": 2472
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "run_target",
+      "description": "2290\r\nrun_target",
       "line": 2490
     }
   ]
