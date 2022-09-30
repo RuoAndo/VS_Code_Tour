@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "update_bitmap_score",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "calibrate_case",
+      "line": 2685
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "update_bitmap_score\r\n",
+      "line": 1265
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "fav_factor\r\n",
+      "line": 1268
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "-> update_bitmap_score",
+      "line": 263
+    }
+  ]
+}
