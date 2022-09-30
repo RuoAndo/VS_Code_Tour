@@ -24,7 +24,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "trace bits - init forkserver",
+      "description": "trace bits - init forkserver\r\n\r\nconfig.h:293: /* Distinctive bitmap signature used to indicate failed execution: */\r\nconfig.h:294: \r\nconfig.h:295: #define EXEC_FAIL_SIG       0xfee1dead",
       "line": 2122
     },
     {
