@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "has_new_bits\r\n\r\nglobal -rx has_new_bits\r\n\r\ncalibrate_case\r\nhas_new_bits     2607 afl-fuzz.c           hnb = has_new_bits(virgin_bits);\r\nhas_new_bits     2638 afl-fuzz.c             hnb = has_new_bits(virgin_bits);\r\n\r\nsave_if_interesting\r\nhas_new_bits     3175 afl-fuzz.c           if (!(hnb = has_new_bits(virgin_bits))) {\r\nhas_new_bits     3238 afl-fuzz.c               if (!has_new_bits(virgin_tmout)) return keeping;\r\nhas_new_bits     3302 afl-fuzz.c               if (!has_new_bits(virgin_crash)) return keeping;",
+      "description": "has_new_bits <-- save_if_interesintg / calibrate_case\r\n\r\nglobal -rx has_new_bits\r\n\r\ncalibrate_case\r\nhas_new_bits     2607 afl-fuzz.c           hnb = has_new_bits(virgin_bits);\r\nhas_new_bits     2638 afl-fuzz.c             hnb = has_new_bits(virgin_bits);\r\n\r\nsave_if_interesting\r\nhas_new_bits     3175 afl-fuzz.c           if (!(hnb = has_new_bits(virgin_bits))) {\r\nhas_new_bits     3238 afl-fuzz.c               if (!has_new_bits(virgin_tmout)) return keeping;\r\nhas_new_bits     3302 afl-fuzz.c               if (!has_new_bits(virgin_crash)) return keeping;",
       "line": 907
     },
     {
