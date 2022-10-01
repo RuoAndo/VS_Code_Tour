@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "first_trace",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "first_trace",
+      "line": 2574
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "first_trace",
+      "line": 2606
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "// 最初のトレース結果と異なるbitmapの箇所はマークする\r\n          // この情報はstatsに使用",
+      "line": 2647
+    }
+  ]
+}
