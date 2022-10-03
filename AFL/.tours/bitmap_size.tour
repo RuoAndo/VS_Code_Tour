@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "bitmap_size",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "bitmap_size\r\n",
+      "line": 228
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "bitmap_size",
+      "line": 255
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "calibrate_case\r\n",
+      "line": 2682
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "show_stats",
+      "line": 4165
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "bitmap_size\r\n",
+      "line": 4749
+    }
+  ]
+}
