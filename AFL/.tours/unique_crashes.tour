@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "run_target -> FAULT_CRASH",
+      "line": 2478
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "static u8 save_if_interesting",
       "line": 3306
     },
