@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "static u8 run_target(char** argv, u32 timeout)",
+      "description": "static u8 run_target(char** argv, u32 timeout)\r\n\r\nIf WIFEXITED is true of status, this macro returns the low-order 8 bits of the exit status value from the child process",
       "line": 2487,
       "selection": {
         "start": {
@@ -16,6 +16,11 @@
           "character": 23
         }
       }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "This macro returns a nonzero value if the child process terminated because it received a signal that was not handled",
+      "line": 2472
     },
     {
       "file": "afl-fuzz.c",
