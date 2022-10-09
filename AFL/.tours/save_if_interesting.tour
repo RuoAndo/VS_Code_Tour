@@ -9,7 +9,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "save_if_interesting calls calibrate_case.\r\n",
+      "description": "common_fuzz_stuff calls save_if_interesting.\r\nsync_fuzzers calls save_if_interesting.\r\n\r\nsave_if_interesting calls calibrate_case.\r\n",
       "line": 3163
     },
     {
