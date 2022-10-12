@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "stage_val_type",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "stage_val_type\r\n",
+      "line": 218
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "stage_val_type",
+      "line": 3094
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "stage_val_type\r\n",
+      "line": 5176
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "stage_val_type\r\n",
+      "line": 5621
+    }
+  ]
+}
