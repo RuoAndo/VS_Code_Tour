@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "current entry - splicing",
+      "line": 6605
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "splicing",
       "line": 6638
     },
