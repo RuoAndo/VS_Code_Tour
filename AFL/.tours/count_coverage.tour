@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "count_coverage",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "count coverage",
+      "line": 4179
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "count coverage\r\n",
+      "line": 4028
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "count coverage\r\n",
+      "line": 3987
+    }
+  ]
+}
