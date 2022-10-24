@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ck_read",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "ck read\r\n",
+      "line": 377
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "ck read\r\n",
+      "line": 892
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "load extras\r\n",
+      "line": 1758
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "splicing",
+      "line": 6630
+    }
+  ]
+}
