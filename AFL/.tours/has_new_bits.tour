@@ -49,6 +49,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "modifying bits",
+      "line": 966
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "has_new_bits",
       "line": 153
     }
