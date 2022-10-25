@@ -19,6 +19,16 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "calibrate_case",
+      "line": 2607
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "calibrate_case",
+      "line": 2638
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "save_if_interesting",
       "line": 3175
     },
