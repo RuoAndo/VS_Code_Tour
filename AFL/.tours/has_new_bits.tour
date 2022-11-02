@@ -9,7 +9,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "calibrate_case",
+      "description": "calibrate_case\r\n\r\nhas_new_bits returns 1 if bitmap is changed.",
       "line": 2607
     },
     {
