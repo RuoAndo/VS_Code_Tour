@@ -9,7 +9,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "minize_bits",
+      "description": "minize_bits\r\n> u8* trace_mini;                     /* Trace bytes, if kept             */\r\n> u32 tc_ref;                         /* Trace bytes ref count            */",
       "line": 1241
     }
   ]
