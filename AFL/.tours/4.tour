@@ -1,0 +1,36 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "trace_mini",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "/*********************************************\r\n   * SIMPLE BITFLIP (+dictionary construction) *\r\n   *********************************************/",
+      "line": 5281
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace mini\r\n",
+      "line": 262
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace mini -> update bitmap score",
+      "line": 1287
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace mini -> cull quque",
+      "line": 1349
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "/*********************************************\r\n   * SIMPLE BITFLIP (+dictionary construction) *\r\n   *********************************************/\r\n\r\n   this is test",
+      "line": 5310
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "/*********************************************\r\n   * SIMPLE BITFLIP (+dictionary construction) *\r\n   *********************************************/",
+      "line": 5362
+    }
+  ]
+}
