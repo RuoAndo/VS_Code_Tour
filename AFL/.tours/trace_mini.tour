@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "trace_mini",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "global -rx update_bitmap_score                                                                                                                    \r\nupdate_bitmap_score 2685 afl-fuzz.c         update_bitmap_score(q);\r\nupdate_bitmap_score 4634 afl-fuzz.c           update_bitmap_score(q);\r\n\r\n2685 -> calibrate_case\r\n4684 -> trim_case",
+      "line": 1265
+    }
+  ]
+}
