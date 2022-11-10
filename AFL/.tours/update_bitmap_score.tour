@@ -21,6 +21,11 @@
       "file": "afl-fuzz.c",
       "description": "-> update_bitmap_score",
       "line": 263
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "update bitmap score <- caribrate_case\r\n\r\nafter the loop of\r\nfor (stage_cur = 0; stage_cur < stage_max; stage_cur++) {\r\n",
+      "line": 2685
     }
   ]
 }
