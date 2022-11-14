@@ -9,6 +9,31 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "cull_queue",
+      "line": 118
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "cull_queue\r\n",
+      "line": 1324,
+      "selection": {
+        "start": {
+          "line": 1303,
+          "character": 8
+        },
+        "end": {
+          "line": 1303,
+          "character": 21
+        }
+      }
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "loop with temp_v",
+      "line": 1342
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "qull_queue",
       "line": 276,
       "selection": {
