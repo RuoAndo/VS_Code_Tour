@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "exec_cksum",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "def",
+      "line": 256
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "save_if_interesting",
+      "line": 3198
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "calibrate_case\r\n",
+      "line": 2577
+    }
+  ]
+}
