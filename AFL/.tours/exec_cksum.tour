@@ -9,6 +9,31 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "check - calibrate_case",
+      "line": 2604
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "check - calibrate_case",
+      "line": 2636
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "check - trim_case",
+      "line": 4584
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "checking - fuzz_one ",
+      "line": 5155
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "checking fuzz_one",
+      "line": 5381
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "save_if_interesting",
       "line": 3198
     },
