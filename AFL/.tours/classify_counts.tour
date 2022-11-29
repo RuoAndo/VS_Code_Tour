@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "classify_counts",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "run_target => trim/calibrate case | save_if_interesting | common_fuzz_stuff | sync_fuzzers",
+      "line": 1175
+    }
+  ]
+}
