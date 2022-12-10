@@ -4,8 +4,13 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "run_target => trim/calibrate case | save_if_interesting | common_fuzz_stuff | sync_fuzzers",
+      "description": "run_target => trim/calibrate case | save_if_interesting | common_fuzz_stuff | sync_fuzzers1 \r\n\r\n1 calibrate 2 trim 3 sync 4 save 5 common\r\n\r\n",
       "line": 1175
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "run_target()では最後にclassify_counts()という関数を読んでいますが，この関数はカバレッジの計数結果を以下の8つに分類します．",
+      "line": 1181
     }
   ]
 }
