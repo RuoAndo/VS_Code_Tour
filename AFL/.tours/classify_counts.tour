@@ -11,6 +11,11 @@
       "file": "afl-fuzz.c",
       "description": "run_target()では最後にclassify_counts()という関数を読んでいますが，この関数はカバレッジの計数結果を以下の8つに分類します．",
       "line": 1181
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "callerは一点のみ\r\n\r\nrun_targetの第二ブランチの後。\r\n",
+      "line": 1202
     }
   ]
 }
