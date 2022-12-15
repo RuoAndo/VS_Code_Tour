@@ -16,6 +16,11 @@
       "file": "afl-fuzz.c",
       "description": "callerは一点のみ\r\n\r\nrun_targetの第二ブランチの後。\r\n",
       "line": 1202
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "IFの分岐内\r\ntrace_bitsはローカル変数。",
+      "line": 2465
     }
   ]
 }
