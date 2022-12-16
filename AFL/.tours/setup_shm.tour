@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "setup_shm",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace bits\r\n",
+      "line": 1371
+    }
+  ]
+}
