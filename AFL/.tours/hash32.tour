@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "calibrate_case",
+      "description": "calibrate_case - compare trace_bits",
       "line": 2634
     },
     {
