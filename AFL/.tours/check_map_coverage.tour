@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "check_map_coverage",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace_bits",
+      "line": 2726
+    }
+  ]
+}
