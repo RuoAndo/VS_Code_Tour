@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "2290-2503 - write_to_testcase",
+      "description": "2290-2503 - write_to_testcase\r\n\r\nrun_targetの5つの呼び出しポイント\r\ntrim_caseのみ、呼ばれない",
       "line": 2290
     },
     {
