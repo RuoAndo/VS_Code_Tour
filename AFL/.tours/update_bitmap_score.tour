@@ -9,7 +9,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "update_bitmap_score\r\n",
+      "description": "update_bitmap_score\r\ncalled from two func of cases - trim_case and calibrate_case.",
       "line": 1265
     },
     {
