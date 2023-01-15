@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "bitmap bytes\r\n",
+      "description": "bitmap bytes\r\n-> calibrate case\r\n-> cull queue (main)",
       "line": 276
     },
     {
