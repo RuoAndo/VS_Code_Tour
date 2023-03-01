@@ -19,6 +19,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "config.h:#define CAL_CYCLES          8",
+      "line": 2596
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "calibrate case - virgin_bits",
       "line": 153
     },
