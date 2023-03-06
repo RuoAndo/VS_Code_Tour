@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "common_fuzz_stuffから呼ばれる/引数faultで分離/crash_modeならcalibrate_case",
+      "line": 3164
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "if has new_bits returns 1, keep.\r\n",
       "line": 3238
     },
