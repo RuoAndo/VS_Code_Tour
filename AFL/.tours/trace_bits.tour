@@ -19,6 +19,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "save_if_interesingのfault_errorは、run_targetのtb4を参照している。",
+      "line": 2491
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "tracebits - init fork server",
       "line": 2234
     },
