@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "common_fuzz_stuffと、sync_fuzzerから呼び出し\r\n\r\nhas_new_bitを実行。\r\n関数内でもcalibrationする",
+      "line": 3164
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "common_fuzz_stuffから呼ばれる/引数faultで分離/crash_modeならcalibrate_case",
       "line": 3164
     },
