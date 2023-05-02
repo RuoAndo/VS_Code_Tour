@@ -4,8 +4,18 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "static u8 save_if_interesting",
-      "line": 3292
+      "description": "static u8 save_if_interesting\r\n\r\nconfig.h:#define KEEP_UNIQUE_CRASH   5000\r\n\r\n",
+      "line": 3292,
+      "selection": {
+        "start": {
+          "line": 3293,
+          "character": 29
+        },
+        "end": {
+          "line": 3293,
+          "character": 46
+        }
+      }
     },
     {
       "file": "afl-fuzz.c",
