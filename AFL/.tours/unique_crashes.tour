@@ -19,6 +19,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "# grep KEEP_UNIQUE_CRASH *h\r\nconfig.h:#define KEEP_UNIQUE_CRASH   5000",
+      "line": 4211
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "run_target -> FAULT_CRASH",
       "line": 2478
     },
