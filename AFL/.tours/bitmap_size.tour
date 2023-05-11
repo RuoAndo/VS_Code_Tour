@@ -4,8 +4,18 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "bitmap_size\r\n",
-      "line": 228
+      "description": "bitmap_size\r\n\r\nstatic u64 total_bitmap_size,         /* Total bit count for all bitmaps  */\r\n\r\nrun_target()を実行すると，trace_bitsに実行したカバレッジのbitmapが格納",
+      "line": 228,
+      "selection": {
+        "start": {
+          "line": 228,
+          "character": 1
+        },
+        "end": {
+          "line": 228,
+          "character": 77
+        }
+      }
     },
     {
       "file": "afl-fuzz.c",
