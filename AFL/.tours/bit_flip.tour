@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "bit_flip",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "bitflip => stage finds / stage cycles\r\n",
+      "line": 4266
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "could be bitflip",
+      "line": 4816
+    }
+  ]
+}
