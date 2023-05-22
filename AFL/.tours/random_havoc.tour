@@ -14,7 +14,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": " 89/* Baseline number of random tweaks during a single 'havoc' stage: */                                                                                                                                  \r\n 90                                                                                                                                                                                                       \r\n 91#define HAVOC_CYCLES        256                                                                                                                                                                        \r\n 92#define HAVOC_CYCLES_INIT   1024      ",
+      "description": " 89/* Baseline number of random tweaks during a single 'havoc' stage: */                                                                                                                                  \r\n 90                                                                                                                                                                                                       \r\n 91#define HAVOC_CYCLES        256                                                                                                                                                                        \r\n 92#define HAVOC_CYCLES_INIT   1024      \r\n\r\n /* 13 */ STAGE_EXTRAS_UI,\r\n  /* 14 */ STAGE_EXTRAS_AO,\r\n  /* 15 */ STAGE_HAVOC,",
       "line": 6130
     }
   ]
