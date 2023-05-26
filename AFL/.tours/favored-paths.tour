@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "favored paths",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "queued_favored",
+      "line": 4189
+    }
+  ]
+}
