@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "stage_execs",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "]# grep stage_max afl-fuzz.c | grep \"=\" | grep len\r\n    stage_max = q->len / remove_len;\r\n  stage_max   = len << 3;\r\n  stage_max   = (len << 3) - 1;\r\n  stage_max   = (len << 3) - 3;\r\n  stage_max   = len;\r\n  stage_max   = len - 1;\r\n  stage_max   = len - 3;\r\n  stage_max   = 2 * len * ARITH_MAX;\r\n  stage_max   = 4 * (len - 1) * ARITH_MAX;\r\n  stage_max   = 4 * (len - 3) * ARITH_MAX;\r\n  stage_max   = len * sizeof(interesting_8);\r\n  stage_max   = 2 * (len - 1) * (sizeof(interesting_16) >> 1);\r\n  stage_max   = 2 * (len - 3) * (sizeof(interesting_32) >> 2);\r\n  stage_max   = extras_cnt * len;\r\n  stage_max   = extras_cnt * (len + 1);\r\n  stage_max   = MIN(a_extras_cnt, USE_AUTO_EXTRAS) * len;",
+      "line": 4203
+    }
+  ]
+}
