@@ -19,7 +19,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "extra: \r\n\r\nstruct extra_data {\r\n  u8* data;                           /* Dictionary token data            */\r\n  u32 len;                            /* Dictionary token length          */\r\n  u32 hit_cnt;                        /* Use count in the corpus          */\r\n};\r\n\r\nstatic struct extra_data* extras;     /* EAxtra tokens to fuzz with        */\r\nstatic u32 extras_cnt;                /* Total number of tokens read      */\r\n\r\nstatic struct extra_data* a_extras;   /* Automatically selected extras    */\r\nstatic u32 a_extras_cnt;              /* Total number of tokens available */",
+      "description": "# pwd                                                                                                                                      \r\n/var/www/html/codes/ensemble/AFL/dictionaries\r\n\r\nextra: \r\n\r\nstruct extra_data {\r\n  u8* data;                           /* Dictionary token data            */\r\n  u32 len;                            /* Dictionary token length          */\r\n  u32 hit_cnt;                        /* Use count in the corpus          */\r\n};\r\n\r\nstatic struct extra_data* extras;     /* EAxtra tokens to fuzz with        */\r\nstatic u32 extras_cnt;                /* Total number of tokens read      */\r\n\r\nstatic struct extra_data* a_extras;   /* Automatically selected extras    */\r\nstatic u32 a_extras_cnt;              /* Total number of tokens available */",
       "line": 5979
     },
     {
