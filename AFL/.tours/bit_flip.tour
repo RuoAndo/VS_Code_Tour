@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "bitflip => stage finds / stage cycles\r\n",
+      "description": "bitflip => stage finds / stage cycles\r\n\r\nafl-fuzz.c:5262: \r\nafl-fuzz.c:5263:   stage_finds[STAGE_FLIP1]  += new_hit_cnt - orig_hit_cnt;\r\nafl-fuzz.c:5264:   stage_cycles[STAGE_FLIP1] += stage_max;",
       "line": 4266
     },
     {
