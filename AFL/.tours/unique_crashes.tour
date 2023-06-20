@@ -34,7 +34,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "static u8 save_if_interesting",
+      "description": "static u8 save_if_interesting\r\n\r\nunique_crash++ -> save_if_interesting / sync_fuzzers",
       "line": 3320
     },
     {
