@@ -19,7 +19,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "run targetを呼び出す。\r\nsave_if_interestingを１回だけ呼び出し。\r\n\r\nすべてfuzz_oneから呼び出される。\r\n\r\nBIT FLIPなどのstrategyに対して、common.",
+      "description": "run targetを呼び出す。\r\nsave_if_interestingを１回だけ呼び出し。\r\n\r\ncalls save_if_interesting to increment unique_crash.\r\n\r\nすべてfuzz_oneから呼び出される。\r\n\r\nBIT FLIPなどのstrategyに対して、common.",
       "line": 4650
     },
     {
