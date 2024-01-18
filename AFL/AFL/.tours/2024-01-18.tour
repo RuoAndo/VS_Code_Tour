@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "2024-01-18",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "呼び出し元が５３か所",
+      "line": 4650
+    }
+  ]
+}
