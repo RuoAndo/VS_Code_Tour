@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "common_fuzz_stuff",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "invokes run_target with out_buf",
+      "line": 4650
+    }
+  ]
+}
