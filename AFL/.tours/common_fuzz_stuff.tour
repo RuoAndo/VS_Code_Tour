@@ -6,6 +6,11 @@
       "file": "afl-fuzz.c",
       "description": "invokes run_target with out_buf",
       "line": 4650
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "faultで分岐。\r\n統計は、void show_stats()で表示。",
+      "line": 4689
     }
   ]
 }
