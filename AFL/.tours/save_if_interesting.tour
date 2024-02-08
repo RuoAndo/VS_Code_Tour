@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "save_if_interesting",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "has_new_bitsで実行パスが新しいかどうか検査。",
+      "line": 3163
+    }
+  ]
+}
