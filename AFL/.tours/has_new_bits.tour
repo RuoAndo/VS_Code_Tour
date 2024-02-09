@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "has_new_bits",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace_bitsの検査？呼ぶ関数は\r\n1. calibrate_case\r\n2. save_if_interesting",
+      "line": 907
+    }
+  ]
+}
