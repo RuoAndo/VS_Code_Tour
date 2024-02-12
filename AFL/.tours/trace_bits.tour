@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "trace_bits",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "1. has_new_bits\r\n2. update_bitmap_score\r\n3. run_target\r\n4. calibrate_case\r\n5. setup_shm\r\n6. init_forkserver\r\n7. save_if_interesting\r\n8. trim_case\r\n9. fuzz_one",
+      "line": 151
+    }
+  ]
+}
