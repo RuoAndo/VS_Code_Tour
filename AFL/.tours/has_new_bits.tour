@@ -6,6 +6,11 @@
       "file": "afl-fuzz.c",
       "description": "trace_bitsの検査？呼ぶ関数は\r\n1. calibrate_case\r\n2. save_if_interesting",
       "line": 907
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "virgin_bitsは、全体のカバー範囲",
+      "line": 2607
     }
   ]
 }
