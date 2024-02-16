@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "trace_bitsの検査？呼ぶ関数は\r\n1. calibrate_case\r\n2. save_if_interesting",
+      "description": "virgin_bitの操作を行う。pointer渡しなので分かりにくい。\r\n\r\ntrace_bitsの検査？呼ぶ関数は\r\n1. calibrate_case\r\n2. save_if_interesting\r\n\r\nvirgin_bit -> virgin_map\r\nvirgin = virgin_map (キャスト)\r\n\r\n\r\n\r\n",
       "line": 907
     },
     {
