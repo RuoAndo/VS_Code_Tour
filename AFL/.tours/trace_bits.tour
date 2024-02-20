@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "trace_bitsはハッシュ値を計算して管理。",
+      "line": 2634
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "tracebitsは、has_new_bits内で参照（ポインタコピー）される。",
       "line": 911
     }
