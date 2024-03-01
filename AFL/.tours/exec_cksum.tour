@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "exec_cksum",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "参照個所数: 15\r\n参照する関数: calibrate_case(4), save_if_interesting(1), trim_case(1), fuzz_one(5)",
+      "line": 256
+    }
+  ]
+}
