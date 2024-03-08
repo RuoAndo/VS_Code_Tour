@@ -6,6 +6,11 @@
       "file": "afl-fuzz.c",
       "description": "参照個所数: 15\r\n参照する関数: calibrate_case(4), save_if_interesting(1), trim_case(1), fuzz_one(5)",
       "line": 256
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "初めての実行なので、cksumは0に設定。",
+      "line": 2577
     }
   ]
 }
