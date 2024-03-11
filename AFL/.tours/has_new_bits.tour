@@ -4,8 +4,18 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "trace_bitsの検査？呼ぶ関数は\r\n1. calibrate_case\r\n2. save_if_interesting",
-      "line": 907
+      "description": "trace_bitsの検査？呼ぶ関数は\r\n1. calibrate_case\r\n2. save_if_interesting\r\n\r\ntrace_bits: 現在の遷移パス？",
+      "line": 907,
+      "selection": {
+        "start": {
+          "line": 907,
+          "character": 18
+        },
+        "end": {
+          "line": 907,
+          "character": 21
+        }
+      }
     },
     {
       "file": "afl-fuzz.c",
