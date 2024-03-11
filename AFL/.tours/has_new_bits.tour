@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "has_new_bits",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace_bitsとvirgin_mapを比較。\r\n",
+      "line": 907
+    }
+  ]
+}
