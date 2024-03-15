@@ -9,6 +9,16 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "calibrate_caseはループ前の準備\r\n",
+      "line": 2577
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "calibrate_case実行時で、チェックサムが０でない場合、\r\nfirst_traceにtrace_bitsをコピーする。",
+      "line": 2604
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "初めての実行なので、cksumは0に設定。\r\n\r\ncalibrate_caseで、first_runを0に設定（初期化）。",
       "line": 2577
     }
