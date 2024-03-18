@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "trim_case",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "4526-4623\r\nmemcpy(clean_trace, trace_bits, MAP_SIZE);",
+      "line": 4526
+    }
+  ]
+}
