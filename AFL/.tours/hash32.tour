@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "hash32",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "hash.h\r\n\r\nstatic inline u32 hash32(const void* key, u32 len, u32 seed) {\r\n  const u32* data  = (u32*)key;\r\n  u32 h1 = seed ^ len;\r\n  len >>= 2;\r\n  while (len--) {\r\n    u32 k1 = *data++;\r\n    k1 *= 0xcc9e2d51;\r\n    k1  = ROL32(k1, 15);\r\n    k1 *= 0x1b873593;\r\n    h1 ^= k1;\r\n    h1  = ROL32(h1, 13);\r\n    h1  = h1 * 5 + 0xe6546b64;\r\n  }\r\n  h1 ^= h1 >> 16;\r\n  h1 *= 0x85ebca6b;\r\n  h1 ^= h1 >> 13;\r\n  h1 *= 0xc2b2ae35;\r\n  h1 ^= h1 >> 16;\r\n  return h1;\r\n}\r\n",
+      "line": 2634
+    }
+  ]
+}
