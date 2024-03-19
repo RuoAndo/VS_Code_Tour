@@ -26,6 +26,11 @@
       "file": "afl-fuzz.c",
       "description": "tracebitsは、has_new_bits内で参照（ポインタコピー）される。",
       "line": 911
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace_bitsの変更開始",
+      "line": 918
     }
   ]
 }
