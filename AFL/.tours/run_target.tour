@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "def(0)\r\ncaller:\r\n1. calibrate_case\r\n2. save_if_interesting\r\n3. trim_case\r\n4. common_fuzz_stuff\r\n5. sync_fuzzers ",
+      "description": "def(0)\r\ncaller:\r\n1. calibrate_case\r\n2. save_if_interesting\r\n3. trim_case\r\n4. common_fuzz_stuff\r\n5. sync_fuzzers \r\n\r\n# grep execv afl-fuzz.c -rin\r\n187:           total_execs,               /* Total execve() calls             */\r\n1999:   http://lcamtuf.blogspot.com/2014/10/fuzzing-binaries-without-execve.html\r\n2001:   In essence, the instrumentation allows us to skip execve(), and just keep\r\n2117:    execv(target_path, argv);\r\n2119:    /* Use a distinctive bitmap signature to tell the parent about execv()\r\n2310:     execve(). There is a bit of code duplication between here and \r\n2380:      execv(target_path, argv);\r\n2382:      /* Use a distinctive bitmap value to tell the parent about execv()\r\n3159:/* Check if the result of an execve() during routine fuzzing is interesting,\r\n3931:   execve() calls, plus in several other circumstances. */",
       "line": 2290
     }
   ]
