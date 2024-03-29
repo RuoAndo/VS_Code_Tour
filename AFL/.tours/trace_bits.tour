@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "virgin_bitsの統計表示",
+      "line": 3987
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "trace_bitsはハッシュ値を計算して管理。\r\n\r\nhash32でハッシュを取る箇所。\r\n1. calibrate_case\r\n2. save_if_interesting\r\n3. trim_case\r\n4. fuzz_one\r\n5. fuzz_one\r\n",
       "line": 2634
     },
