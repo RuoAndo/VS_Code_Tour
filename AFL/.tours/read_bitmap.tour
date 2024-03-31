@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "read_bitmap",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "mainのoption -Bで呼び出し。",
+      "line": 886
+    }
+  ]
+}
