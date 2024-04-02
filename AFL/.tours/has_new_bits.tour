@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "trace_bitsとvirgin_mapを比較。\r\n\r\n呼び出し箇所は５か所。\r\n1. calibrate_case: 2607\r\n2. calibrate_case: 2638\r\n3. save_if_interestinig: 3175\r\n4. save_if_interesting: 3238\r\n5. save_if_interesting: 3302",
+      "description": "trace_bitsとvirgin_mapを比較。\r\n\r\n関数内で、trace_bitsとvirgin_bitの変更なし。\r\n\r\n呼び出し箇所は５か所。\r\n1. calibrate_case: 2607\r\n2. calibrate_case: 2638\r\n3. save_if_interestinig: 3175\r\n4. save_if_interesting: 3238\r\n5. save_if_interesting: 3302",
       "line": 907
     },
     {
