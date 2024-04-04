@@ -36,6 +36,16 @@
       "file": "afl-fuzz.c",
       "description": "trace_bitsの変更開始",
       "line": 918
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace_bits変更ポイント",
+      "line": 2122
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "trace_bits変更ポイント　その他はinit_forkserver",
+      "line": 2385
     }
   ]
 }
