@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MAP_SIZE",
+  "steps": [
+    {
+      "file": "config.h",
+      "description": "1 << 16\r\n",
+      "line": 322
+    }
+  ]
+}
