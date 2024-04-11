@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "map_coverage",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "map coverage\r\n - map density \r\n - count coverage\r\n ",
+      "line": 4166
+    }
+  ]
+}
