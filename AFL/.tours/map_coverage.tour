@@ -6,6 +6,11 @@
       "file": "afl-fuzz.c",
       "description": "map coverage\r\n - map density \r\n - count coverage\r\n ",
       "line": 4166
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "count coverageの計算にt_bytesをつかう。",
+      "line": 3987
     }
   ]
 }
