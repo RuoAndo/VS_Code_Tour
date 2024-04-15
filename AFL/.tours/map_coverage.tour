@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "map coverage\r\n - map density \r\n - count coverage\r\n ",
+      "description": "map coverage\r\n - map density \r\n - count coverage\r\n \r\n\"map density\"は、AFLがプログラムを実行する際に、どの程度のプログラムカウンタ（PC）の値が特定のテストケースの実行中に訪れられたかを測定します。プログラムカウンタは、プログラム内の実行中の命令の位置を示すために使用されるレジスタです。\"map density\"が高いほど、テストケースがプログラムの異なるパスを通過したことを意味し、コードカバレッジが向上していることを示します。",
       "line": 4166
     },
     {
