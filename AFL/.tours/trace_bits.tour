@@ -44,7 +44,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "trace_bits変更ポイント",
+      "description": "trace_bits変更ポイント\r\n\r\nconfig.h\r\n/* Distinctive bitmap signature used to indicate failed execution: */\r\n#define EXEC_FAIL_SIG       0xfee1dead\r\n",
       "line": 2122
     },
     {
