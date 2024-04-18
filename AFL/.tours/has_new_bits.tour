@@ -11,6 +11,11 @@
       "file": "afl-fuzz.c",
       "description": "virgin_bitsは外部変数\r\n\r\n153:\r\nEXP_ST u8  virgin_bits[MAP_SIZE],     /* Regions yet untouched by fuzzing */\r\n",
       "line": 3175
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "引数はvirgin_mapとvirgin_tmoutの2種類。",
+      "line": 3238
     }
   ]
 }
