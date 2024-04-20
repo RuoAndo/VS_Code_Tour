@@ -9,7 +9,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "EXP_ST u8  virgin_bits[MAP_SIZE],     /* Regions yet untouched by fuzzing */\r\n           virgin_tmout[MAP_SIZE],    /* Bits we haven't seen in tmouts   */\r\n           virgin_crash[MAP_SIZE];    /* Bits we haven't seen in crashes  */",
+      "description": "EXP_ST u8  virgin_bits[MAP_SIZE],     /* Regions yet untouched by fuzzing */\r\n           virgin_tmout[MAP_SIZE],    /* Bits we haven't seen in tmouts   */\r\n           virgin_crash[MAP_SIZE];    /* Bits we haven't seen in crashes  */\r\n\r\n参照個所は３か所しかないので、has_new_bits内なんらかの操作（演算）があるはず",
       "line": 3238
     }
   ]
