@@ -4,8 +4,18 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "trace_bitsとvirgin_mapを比較。\r\n\r\n関数内で、trace_bitsとvirgin_bitの変更なし。\r\n\r\n呼び出し箇所は５か所。\r\n1. calibrate_case: 2607 - virgin_bits\r\n2. calibrate_case: 2638 - virgin_bits\r\n3. save_if_interestinig: 3175 - virgin_bits\r\n4. save_if_interesting: 3238 - virgin_tmout\r\n5. save_if_interesting: 3302 - virgin_crash\r\n\r\ntrace_bitsの値がインクリメントされる箇所も、上記五か所？\r\n\r\n# grep -n has_new_bits afl-fuzz.c                                                                                                                                                                                    \r\n907:static inline u8 has_new_bits(u8* virgin_map) {\r\n2607:    hnb = has_new_bits(virgin_bits);\r\n2638:      hnb = has_new_bits(virgin_bits);\r\n3175:    if (!(hnb = has_new_bits(virgin_bits))) {\r\n3238:        if (!has_new_bits(virgin_tmout)) return keeping;\r\n3302:        if (!has_new_bits(virgin_crash)) return keeping;",
+      "description": "trace_bitsとvirgin_mapを比較。\r\n\r\n関数内で、trace_bitsとvirgin_bitの変更なし。\r\n\r\n呼び出し箇所は５か所。\r\n1. calibrate_case: 2607 - virgin_bits\r\n2. calibrate_case: 2638 - virgin_bits\r\n3. save_if_interestinig: 3175 - virgin_bits\r\n4. save_if_interesting: 3238 - virgin_tmout\r\n5. save_if_interesting: 3302 - virgin_crash\r\n\r\ntrace_bitsの値がインクリメントされる箇所も、上記五か所？\r\n\r\n# grep -n has_new_bits afl-fuzz.c                                                                                                                                                                                    \r\n907:static inline u8 has_new_bits(u8* virgin_map) {\r\n\r\n\r\ncalibrate case\r\n2607:    hnb = has_new_bits(virgin_bits);\r\n2638:      hnb = has_new_bits(virgin_bits);\r\n\r\nsave_if_interesting\r\n3175:    if (!(hnb = has_new_bits(virgin_bits))) {\r\n3238:        if (!has_new_bits(virgin_tmout)) return keeping;\r\n3302:        if (!has_new_bits(virgin_crash)) return keeping;",
       "line": 907
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "while (i--) {",
+      "line": 968
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "if (unlikely(*current) && unlikely(*current & *virgin)) {",
+      "line": 963
     },
     {
       "file": "afl-fuzz.c",
