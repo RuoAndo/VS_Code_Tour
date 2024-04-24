@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "bitmap_changed",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "変更箇所はここ１か所のみ。",
+      "line": 970
+    }
+  ]
+}
