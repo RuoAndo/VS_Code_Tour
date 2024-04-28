@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "virgin_mapは内部変数 \r\nvirgin_bitsは外部変数",
+      "line": 970
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "while (i--) {",
       "line": 968
     },
