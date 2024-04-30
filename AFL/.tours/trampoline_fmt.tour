@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "trampoline_fmt",
+  "steps": [
+    {
+      "file": "afl-as.h",
+      "description": "trampoline_fmt_64関数は、American Fuzzy Lop（AFL）の64ビットバイナリで使用されるトランポリン（trampoline）関数です。これは、AFLがファジング（Fuzzing）対象のプログラム内で特定のコードパスをトリガーするために使用される機能です。",
+      "line": 138
+    }
+  ]
+}
