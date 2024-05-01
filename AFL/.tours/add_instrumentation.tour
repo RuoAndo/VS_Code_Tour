@@ -4,8 +4,13 @@
   "steps": [
     {
       "file": "afl-as.c",
-      "description": "trampoline関数を呼び出し。",
+      "description": "trampoline関数を呼び出し。\r\n\r\nAFL（American Fuzzy Lop）のadd_instrumentation関数は、AFLのコードカバレッジ計測機能をプログラムに組み込むために使用される関数です。この関数は、実行されるプログラムのバイナリに特定のバイト列を挿入することで、プログラムの制御フローを追跡し、どの分岐が通過したかを記録します。\r\n\r\n具体的には、add_instrumentation関数は、プログラムのバイナリにインストゥルメンテーションを挿入するためのアセンブリやバイナリパッチを適用する責任があります。これにより、AFLが実行されると、分岐条件の実行パスが記録され、カバレッジプロファイルが生成されます。\r\n\r\nAFLは、実行パスのカバレッジ情報を使用して、Fuzzingセッション中に特定の入力を生成するために、スマートなFuzzing戦略を実行します。これにより、プログラムの様々な実行パスを効率的に探索し、潜在的なバグやセキュリティ上の問題を特定するのに役立ちます。\r\n\r\nadd_instrumentation関数はAFLのコア部分であり、実際の使用方法は、AFLのソースコードやドキュメントを参照する必要があります。",
       "line": 227
+    },
+    {
+      "file": "afl-as.c",
+      "description": "grep \"int main\" *c -rin                                                                                                                                                                                           \r\nafl-analyze.c:956:int main(int argc, char** argv) {\r\nafl-as.c:477:int main(int argc, char** argv) {\r\nafl-fuzz.c:7778:int main(int argc, char** argv) {\r\nafl-fuzz2.c:7778:int main(int argc, char** argv) {\r\nafl-gcc.c:310:int main(int argc, char** argv) {\r\nafl-gotcpu.c:127:int main(int argc, char** argv) {\r\nafl-showmap.c:629:int main(int argc, char** argv) {\r\nafl-tmin.c:983:int main(int argc, char** argv) {\r\nexample.c:5:int main(int argc, char** argv)\r\ntest-instr.c:29:int main(int argc, char** argv) {\r\n\r\n",
+      "line": 477
     }
   ]
 }
