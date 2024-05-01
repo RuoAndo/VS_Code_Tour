@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "add_instrumentation",
+  "steps": [
+    {
+      "file": "afl-as.c",
+      "description": "trampoline関数を呼び出し。",
+      "line": 227
+    }
+  ]
+}
