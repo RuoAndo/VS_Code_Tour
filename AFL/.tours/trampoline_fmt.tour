@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-as.h",
-      "description": "trampoline_fmt_64関数は、American Fuzzy Lop（AFL）の64ビットバイナリで使用されるトランポリン（trampoline）関数です。これは、AFLがファジング（Fuzzing）対象のプログラム内で特定のコードパスをトリガーするために使用される機能です。",
+      "description": "trampoline_fmt_64関数は、American Fuzzy Lop（AFL）の64ビットバイナリで使用されるトランポリン（trampoline）関数です。これは、AFLがファジング（Fuzzing）対象のプログラム内で特定のコードパスをトリガーするために使用される機能です。\r\n\r\nmovq source, destination\r\n\r\n\"movq $0x%08x, %%rcx\\n\"  # ここの部分($0x%08xはフォーマッタ)にfprintf()で乱数が挿入される",
       "line": 138
     }
   ]
