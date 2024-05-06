@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-as.c",
+      "description": "条件付きジャンプ（Conditional Jump）: 条件分岐命令の中で最も基本的なものの1つです。プログラムの実行中に、特定の条件が満たされた場合に別の命令のアドレスにジャンプします。例えば、x86アーキテクチャでは、JZ（Zero Flagがセットされた場合にジャンプする）、JNZ（Zero Flagがセットされていない場合にジャンプする）などがあります。\r\n\r\n条件付き分岐（Conditional Branch）: 条件付き分岐命令は、特定の条件が満たされた場合にプログラムの制御を別の場所に移動させます。これは、条件が真の場合と偽の場合の両方に対する分岐を提供します。例えば、ARMアーキテクチャでは、BEQ（等しい場合にジャンプする）、BNE（等しくない場合にジャンプする）などがあります。",
+      "line": 368
+    },
+    {
+      "file": "afl-as.c",
       "description": "grep \"int main\" *c -rin                                                                                                                                                                                           \r\nafl-analyze.c:956:int main(int argc, char** argv) {\r\nafl-as.c:477:int main(int argc, char** argv) {\r\nafl-fuzz.c:7778:int main(int argc, char** argv) {\r\nafl-fuzz2.c:7778:int main(int argc, char** argv) {\r\nafl-gcc.c:310:int main(int argc, char** argv) {\r\nafl-gotcpu.c:127:int main(int argc, char** argv) {\r\nafl-showmap.c:629:int main(int argc, char** argv) {\r\nafl-tmin.c:983:int main(int argc, char** argv) {\r\nexample.c:5:int main(int argc, char** argv)\r\ntest-instr.c:29:int main(int argc, char** argv) {\r\n\r\n",
       "line": 477
     }
