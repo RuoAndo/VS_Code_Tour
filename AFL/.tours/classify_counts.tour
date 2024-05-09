@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "classify_counts",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "classify_counts\r\nrun_target()では最後にclassify_counts()という関数を読んでいますが，この関数はカバレッジの計数結果を以下の8つに分類します．\r\n\r\n  1, 2, 3, 4-7, 8-15, 16-31, 32-127, 128+",
+      "line": 1202
+    }
+  ]
+}
