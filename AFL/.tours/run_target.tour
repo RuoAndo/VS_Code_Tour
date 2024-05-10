@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "2385 *(u32*)trace_bits = EXEC_FAIL_SIG;\r\n\r\n5/10\r\ntrace_bitsはrun_target内で操作。\r\nclasssify_countsで結果を分類",
+      "line": 2463
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "trace_bitsの特定の場所に EXEC_FAIL_SIG を代入？",
       "line": 2385
     }
