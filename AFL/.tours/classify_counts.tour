@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "trace_bitsの値が変更される？",
+      "line": 2463
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "具体的には、count_class_lookup16 関数は、16ビットの値を使用してテストケースを分類し、それぞれの分類に対するカウンタをインクリメントします。",
       "line": 1157
     }
