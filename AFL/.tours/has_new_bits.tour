@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "テストケースの実行後、AFLは trace_bits と virgin_bits を比較します。trace_bits に新しいビットがセットされており、それが virgin_bits ではまだクリアされていない場合、AFLはそのビットをクリアします。これにより、新しいコードパスが発見されたことを示します。",
+      "line": 970
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "virgin_mapは内部変数 \r\nvirgin_bitsは外部変数",
       "line": 970
     },
