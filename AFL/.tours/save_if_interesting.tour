@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "has_new_bitsで実行パスが新しいかどうか検査。\r\n\r\n# global -rx save_if_interesting\r\nsave_if_interesting 4689 afl-fuzz.c         queued_discovered += save_if_interesting(argv, out_buf, len, fault);\r\nsave_if_interesting 6803 afl-fuzz.c               queued_imported += save_if_interesting(argv, mem, st.st_size, fault);\r\nsave_if_interesting 4689 afl-fuzz2.c        queued_discovered += save_if_interesting(argv, out_buf, len, fault);\r\nsave_if_interesting 6803 afl-fuzz2.c              queued_imported += save_if_interesting(argv, mem, st.st_size, fault);\r\n\r\nhas_new_bitsが、save_if_interestingで3回呼び出されるので、calibrate_case後のhas_new_bitsの呼び出しは3*4=12回。",
+      "description": "has_new_bitsで実行パスが新しいかどうか検査。\r\n\r\n# global -rx save_if_interesting\r\nsave_if_interesting 4689 afl-fuzz.c         queued_discovered += save_if_interesting(argv, out_buf, len, fault);\r\nsave_if_interesting 6803 afl-fuzz.c               queued_imported += save_if_interesting(argv, mem, st.st_size, fault);\r\nsave_if_interesting 4689 afl-fuzz2.c        queued_discovered += save_if_interesting(argv, out_buf, len, fault);\r\nsave_if_interesting 6803 afl-fuzz2.c              queued_imported += save_if_interesting(argv, mem, st.st_size, fault);\r\n\r\nhas_new_bitsが、save_if_interestingで3回呼び出されるので、calibrate_case後のhas_new_bitsの呼び出しは3*4=12回。\r\n\r\nfault (TMOUT,CRASH)が起きた際に呼び出される？",
       "line": 3163
     },
     {
