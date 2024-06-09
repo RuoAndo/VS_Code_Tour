@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "tensorflow",
+  "steps": [
+    {
+      "file": "train.py",
+      "description": "TensorFlow 1.xでは、計算グラフ（コンピュテーショナルグラフ）を事前に定義し、それをtf.Session内で実行します。",
+      "line": 70
+    }
+  ]
+}

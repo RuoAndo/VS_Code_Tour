@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "LSTM",
+  "steps": [
+    {
+      "file": "agent/actor_critic_agent.py",
+      "description": "後続するモデルの入力になる。",
+      "line": 32
+    },
+    {
+      "file": "agent/models.py",
+      "description": "TensorFlowにおけるtf.transposeは、テンソルの次元の順序を変更するための関数です。",
+      "line": 29
+    }
+  ]
+}
