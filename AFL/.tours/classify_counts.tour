@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "classify_counts\r\nrun_target()では最後にclassify_counts()という関数を読んでいますが，この関数はカバレッジの計数結果を以下の8つに分類します．\r\n\r\n  1, 2, 3, 4-7, 8-15, 16-31, 32-127, 128+\r\n\r\nAFLでは例えばあるA -> Bという遷移を5回実行したものと，6回実行したものは区別しません．\r\n\r\n呼び出し元：\r\nrun_target\r\n\r\n#ifdef WORD_SIZE_64\r\n  classify_counts((u64*)trace_bits);\r\n#else\r\n  classify_counts((u32*)trace_bits);\r\n#endif /* ^WORD_SIZE_64 */\r\n\r\n",
+      "description": "trace_bitsを引数に取る。\r\n\r\nclassify_counts\r\nrun_target()では最後にclassify_counts()という関数を読んでいますが，この関数はカバレッジの計数結果を以下の8つに分類します．\r\n\r\n  1, 2, 3, 4-7, 8-15, 16-31, 32-127, 128+\r\n\r\nAFLでは例えばあるA -> Bという遷移を5回実行したものと，6回実行したものは区別しません．\r\n\r\n呼び出し元：\r\nrun_target\r\n\r\n#ifdef WORD_SIZE_64\r\n  classify_counts((u64*)trace_bits);\r\n#else\r\n  classify_counts((u32*)trace_bits);\r\n#endif /* ^WORD_SIZE_64 */\r\n\r\n",
       "line": 1202
     },
     {
