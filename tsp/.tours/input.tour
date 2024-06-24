@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "input",
+  "steps": [
+    {
+      "file": "train.py",
+      "description": "tsp_env.pyで生成。",
+      "line": 94
+    }
+  ]
+}
