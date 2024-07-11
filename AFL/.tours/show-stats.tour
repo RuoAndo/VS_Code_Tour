@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "show stats",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "CUI",
+      "line": 2565
+    }
+  ]
+}
