@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "arithmetics",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "show stats",
+      "line": 4284
+    }
+  ]
+}
