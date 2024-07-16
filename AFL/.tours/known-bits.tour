@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "known ints",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "show stats",
+      "line": 4293
+    }
+  ]
+}
