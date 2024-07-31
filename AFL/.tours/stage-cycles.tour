@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "stage cycles",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "def\r\n",
+      "line": 221
+    }
+  ]
+}
