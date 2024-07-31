@@ -4,8 +4,18 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "show stats ",
-      "line": 4293
+      "description": "show stats \r\n\r\n220 \r\nstatic u64 stage_finds[32],           /* Patterns found per fuzz stage    */\r\n           stage_cycles[32];          /* Execs per fuzz stage             */\r\n\r\nDI(stage_finds[STAGE_INTEREST8]), DI(stage_cycles[STAGE_INTEREST8])",
+      "line": 4293,
+      "selection": {
+        "start": {
+          "line": 4289,
+          "character": 13
+        },
+        "end": {
+          "line": 4289,
+          "character": 80
+        }
+      }
     }
   ]
 }
