@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "stage_finds",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "stage_findsは、各フェーズ（stage）で発見されたユニークなクラッシュやバグの数\r\n\r\n32 > 変異戦略の数",
+      "line": 220
+    }
+  ]
+}
