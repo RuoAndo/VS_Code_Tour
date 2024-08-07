@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "def\r\n",
+      "description": "各ステージの実行回数を制御するための変数。これにより、各ステージでどれだけの時間をかけるか、どれだけの変異を行うかが決定/",
       "line": 221
     }
   ]
