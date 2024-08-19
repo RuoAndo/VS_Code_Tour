@@ -1,0 +1,15 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "fuzz_one",
+  "steps": [
+    {
+      "title": "fuzz_one",
+      "description": ""
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "main -> fuzz_one -> (each permutation) -> common_fuzz_stuff",
+      "line": 5003
+    }
+  ]
+}
