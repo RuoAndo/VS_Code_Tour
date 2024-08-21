@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "bitmap size",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "def \r\n\r\nbitmap_size: 現在のカバレッジ情報を示すバイトマップのサイズ\r\nニークなエッジ（ブランチカバレッジ）数に基づいており、AFLが検出した新しいコードパスの数を反映.",
+      "line": 228
+    }
+  ]
+}
