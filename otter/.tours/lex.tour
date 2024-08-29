@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "lex",
+  "steps": [
+    {
+      "file": "misc.c",
+      "description": "lexの設定\r\n\r\nmisc.c:493:    else if (str_ident(\"lex\", sn_to_str(t->sym_num))) {\r\noptions.c:943:      if (str_ident(flag_name, \"lex_rpo\"))",
+      "line": 493
+    }
+  ]
+}
