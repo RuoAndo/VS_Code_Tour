@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "calcurate_score",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "def",
+      "line": 4746
+    }
+  ]
+}
