@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "perf_score",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "テストケースを処理する際、キューに保存されたテストケースに優先順位を付けるために perf_score を使用",
+      "line": 6552
+    }
+  ]
+}
