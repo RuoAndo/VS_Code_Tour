@@ -6,6 +6,11 @@
       "file": "afl-fuzz.c",
       "description": "def",
       "line": 4310
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "starts here",
+      "line": 6116
     }
   ]
 }
