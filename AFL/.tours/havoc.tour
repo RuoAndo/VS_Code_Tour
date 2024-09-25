@@ -11,6 +11,11 @@
       "file": "afl-fuzz.c",
       "description": "starts here",
       "line": 6116
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "なぜランダムになる？\r\nUR() 関数は、指定された上限 limit に基づいて 0 から limit-1 の範囲内でランダムな数を生成する関数\r\nURは3**行目。\r\n\r\nstatic inline u32 UR(u32 limit) {\r\n\r\n  if (unlikely(!rand_cnt--)) {\r\n\r\n    u32 seed[2];\r\n\r\n    ck_read(dev_urandom_fd, &seed, sizeof(seed), \"/dev/urandom\");\r\n\r\n    srandom(seed[0]);\r\n    rand_cnt = (RESEED_RNG / 2) + (seed[1] % RESEED_RNG);\r\n\r\n  }\r\n\r\n  return random() % limit;\r\n\r\n}",
+      "line": 6183
     }
   ]
 }
