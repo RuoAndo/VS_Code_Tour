@@ -6,6 +6,16 @@
       "file": "afl-fuzz.c",
       "description": "def",
       "line": 4746
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "calculate score",
+      "line": 5143
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "perf_scoreからstage_maxを算出。",
+      "line": 6142
     }
   ]
 }
