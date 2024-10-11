@@ -3,13 +3,9 @@
   "title": "fuzz_one",
   "steps": [
     {
-      "title": "fuzz_one",
-      "description": ""
-    },
-    {
       "file": "afl-fuzz.c",
-      "description": "main -> fuzz_one -> (each permutation) -> common_fuzz_stuff",
-      "line": 5003
+      "description": "random havoc : fuzz_one 関数内の stage_max は、特定の変異ステージにおいて試行する変異の総数",
+      "line": 6157
     }
   ]
 }
