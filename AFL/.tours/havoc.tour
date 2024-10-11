@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "def",
+      "description": " havoc_div = 1;             /* Cycle count divisor for havoc    */",
       "line": 4310
     },
     {
