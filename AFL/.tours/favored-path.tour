@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "favored path",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "DEF.",
+      "line": 4189
+    }
+  ]
+}
