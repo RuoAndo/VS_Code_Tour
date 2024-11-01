@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "new edges",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "変更箇所。エッジの発見。",
+      "line": 3195
+    }
+  ]
+}
