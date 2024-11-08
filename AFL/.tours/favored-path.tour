@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "DEF.",
+      "description": "DEF.\r\n\r\nqueue_favoredはcull_queueで可算されている。",
       "line": 4189
     }
   ]
