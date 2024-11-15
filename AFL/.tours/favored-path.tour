@@ -6,6 +6,11 @@
       "file": "afl-fuzz.c",
       "description": "DEF.\r\n\r\nqueue_favoredはcull_queueで可算されている。",
       "line": 4189
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "favored pathはbitmapで管理。",
+      "line": 1353
     }
   ]
 }
