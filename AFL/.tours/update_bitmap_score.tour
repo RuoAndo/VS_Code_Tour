@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "update_bitmap_score",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "現在の実行経路（トレースデータ）が既存の「トップスコア」となるかどうかを確認し、それに応じてトップスコアのエントリを更新.\r\ntrace_bits は実行経路のビットマップ",
+      "line": 1265
+    }
+  ]
+}
