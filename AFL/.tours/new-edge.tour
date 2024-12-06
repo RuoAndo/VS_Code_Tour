@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "new edge",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "DEF\r\n\r\nエッジ（edge）は、**プログラムの制御フローグラフ（Control Flow Graph, CFG）**における概念の一つで、2つの基本ブロック（basic blocks）の間を結ぶ接続や遷移",
+      "line": 4208
+    }
+  ]
+}
