@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "total paths",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "DEF",
+      "line": 4131
+    }
+  ]
+}
