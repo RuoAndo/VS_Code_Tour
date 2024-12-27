@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "queued path",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "increment \r\n\r\nqueued pathとは、AFLがファズテスト中に発見した新しい興味深い入力の総数.",
+      "line": 822
+    }
+  ]
+}
