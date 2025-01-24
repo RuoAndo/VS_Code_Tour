@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "t_byte_ratio",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "DEF\r\nt_bytes は、対象となるテストケースが生成した出力のバイト数\r\n\r\nt_bytes は、特定のテストケースが生成するデータ量\r\n出力データ量が異常に少ない、または多い場合、そのテストケースが潜在的なバグや異常動作を引き起こしている可能性。",
+      "line": 3988
+    }
+  ]
+}
