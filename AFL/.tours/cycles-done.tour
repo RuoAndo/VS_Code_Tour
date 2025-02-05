@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "cycles done",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "DEF: queue_cycle ? (queue_cycle - 1) : 0\r\n現在のfuzzingセッションで実行された全テストケースの反復回数",
+      "line": 3483
+    }
+  ]
+}
