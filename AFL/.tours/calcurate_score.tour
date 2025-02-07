@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "afl-fuzz.c",
-      "description": "def",
+      "description": "Fuzz oneから呼び出し。\r\nfuzz_one() は、AFL のキューにある各テストケースに対して 「どの程度の頻度で、どのように変異を適用するか」 を決定",
       "line": 4746
     },
     {
