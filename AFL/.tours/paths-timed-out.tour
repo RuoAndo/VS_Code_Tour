@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "paths timed out",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "cur_skipped_paths:スキップされたテストケース（経路）の数を追跡するための変数",
+      "line": 4174
+    }
+  ]
+}
