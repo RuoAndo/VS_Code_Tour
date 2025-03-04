@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "last unique crash",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "DEF",
+      "line": 4140
+    }
+  ]
+}
