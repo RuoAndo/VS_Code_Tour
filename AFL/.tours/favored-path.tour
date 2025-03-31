@@ -9,7 +9,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "favored pathはbitmapで管理。",
+      "description": "favored pathはbitmapで管理。\r\n\r\nfavored\t今後のfuzzingで重点的に使うべきテストケース。queue_entry にフラグが立つ。\r\ntop_rated\t各ビット（カバレッジ）に対して「最も良いテストケース」へのポインタ。top_rated[] 配列で管理される。\r\n",
       "line": 1353
     }
   ]
