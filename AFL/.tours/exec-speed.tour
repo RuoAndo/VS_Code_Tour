@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "exec speed",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "1秒あたりに対象プログラム（ターゲットバイナリ）を何回実行できるか\r\nAFLがターゲットバイナリに対して入力を投げ、その反応（クラッシュや新しいコードパス）を観測する処理を何回できるかの速度",
+      "line": 2775
+    }
+  ]
+}
