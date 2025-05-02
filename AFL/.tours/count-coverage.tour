@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "count coverage",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "各入力（tuple）あたり、平均して何ビットのcoverage（カバレッジ情報）が得られたか",
+      "line": 4176
+    }
+  ]
+}
