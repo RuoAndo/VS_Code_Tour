@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "top_rated",
+  "steps": [
+    {
+      "file": "afl-fuzz.c",
+      "description": "top_rated は長さ MAP_SIZE の配列\r\n各要素は struct queue_entry* 型（テストケースの情報へのポインタ）\r\nq は現在のテストケース",
+      "line": 1295
+    }
+  ]
+}
