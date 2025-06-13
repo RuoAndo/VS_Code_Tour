@@ -6,6 +6,11 @@
       "file": "afl-fuzz.c",
       "description": "random havoc : fuzz_one 関数内の stage_max は、特定の変異ステージにおいて試行する変異の総数",
       "line": 6157
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "DEF\r\n\r\nstage_max = HAVOC_CYCLES * perf_score / havoc_div / 100;\r\n→ perf_score が高いほど、その入力に対して havoc戦略が長く適用される。",
+      "line": 5003
     }
   ]
 }
