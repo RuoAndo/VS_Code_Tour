@@ -6,6 +6,11 @@
       "file": "afl-fuzz.c",
       "description": "テストケースを処理する際、キューに保存されたテストケースに優先順位を付けるために perf_score を使用",
       "line": 6552
+    },
+    {
+      "file": "afl-fuzz.c",
+      "description": "perf_score の影響を受けるのは havoc と splice のみ",
+      "line": 4806
     }
   ]
 }
