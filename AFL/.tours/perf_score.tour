@@ -9,6 +9,11 @@
     },
     {
       "file": "afl-fuzz.c",
+      "description": "計算部分\r\nexec_us は、ある入力（キュー q）の実行に要した時間（マイクロ秒単位）を格納するフィールド。\r\n「1テストケースあたりの平均実行時間（マイクロ秒単位）」（us = microseconds = マイクロ秒）。\r\n",
+      "line": 4756
+    },
+    {
+      "file": "afl-fuzz.c",
       "description": "perf_score の影響を受けるのは havoc と splice のみ",
       "line": 4806
     }
