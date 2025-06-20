@@ -9,7 +9,7 @@
     },
     {
       "file": "afl-fuzz.c",
-      "description": "計算部分\r\nexec_us は、ある入力（キュー q）の実行に要した時間（マイクロ秒単位）を格納するフィールド。\r\n「1テストケースあたりの平均実行時間（マイクロ秒単位）」（us = microseconds = マイクロ秒）。\r\n",
+      "description": "計算部分\r\nexec_us は、ある入力（キュー q）の実行に要した時間（マイクロ秒単位）を格納するフィールド。\r\n「1テストケースあたりの平均実行時間（マイクロ秒単位）」（us = microseconds = マイクロ秒）。\r\n\r\n呼び出し元\r\nfuzz_one\r\nperform_dry_run\r\nsave_if_interesting\r\n",
       "line": 4756
     },
     {
